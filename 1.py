@@ -33,5 +33,5 @@ def two_sum_dict(nums, target):
         idxs_of_nums_seen[num] = idx
 
 
-print(two_sum_dict([2, 7, 11, 15], 9))
-print(two_sum_dict([0, 4, 3, 0], 0))
+assert two_sum_dict([2, 7, 11, 15], 9) == [0, 1]
+assert two_sum_dict([0, 4, 3, 0], 0) == [0, 3]
