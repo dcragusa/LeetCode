@@ -27,3 +27,15 @@ Find the median of the two sorted arrays. The overall run time complexity should
 **Longest Palindromic Substring** - 
 Given a string `s`, find the longest palindromic substring in `s`. 
 You may assume that the maximum length of `s` is 1000.
+
+[6.](https://github.com/dcragusa/LeetCode/blob/master/6.py)
+**ZigZag Conversion** - 
+The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this:
+
+    P   A   H   N
+    A P L S I I G
+    Y   I   R
+
+And then read line by line: "PAHNAPLSIIGYIR"
+
+Write the code that will take a string and make this conversion given the number of rows.
