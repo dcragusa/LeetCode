@@ -22,3 +22,8 @@ Given a string, find the length of the longest substring without repeating chara
 **Median of Two Sorted Arrays** - 
 There are two sorted arrays nums1 and nums2 of size m and n respectively.
 Find the median of the two sorted arrays. The overall run time complexity should be O(log (m+n)).
+
+[5.](https://github.com/dcragusa/LeetCode/blob/master/5.py)
+**Longest Palindromic Substring** - 
+Given a string `s`, find the longest palindromic substring in `s`. 
+You may assume that the maximum length of `s` is 1000.
