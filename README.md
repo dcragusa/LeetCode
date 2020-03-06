@@ -39,3 +39,7 @@ The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of 
 And then read line by line: "PAHNAPLSIIGYIR"
 
 Write the code that will take a string and make this conversion given the number of rows.
+
+[7.](https://github.com/dcragusa/LeetCode/blob/master/7.py)
+**Reverse Integer** - 
+Given a 32-bit signed integer, reverse digits of an integer.
