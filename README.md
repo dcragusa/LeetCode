@@ -51,3 +51,7 @@ necessary until the first non-whitespace character is found. Then, starting from
 initial plus or minus sign followed by as many numerical digits as possible, and interprets them as a numerical value.
 The string can contain additional characters after those that form the integral number, which are ignored and have 
 no effect on the behavior of this function.
+
+[9.](https://github.com/dcragusa/LeetCode/blob/master/9.py)
+**Palindrome Number** - 
+Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
