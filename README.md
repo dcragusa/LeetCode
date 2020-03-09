@@ -21,7 +21,7 @@ Given a string, find the length of the longest substring without repeating chara
 [4.](https://github.com/dcragusa/LeetCode/blob/master/4.py)
 **Median of Two Sorted Arrays** - 
 There are two sorted arrays `nums1` and `nums2` of size `m` and `n` respectively.
-Find the median of the two sorted arrays. The overall run time complexity should be `O(log (m+n))`.
+Find the median of the two sorted arrays.
 
 [5.](https://github.com/dcragusa/LeetCode/blob/master/5.py)
 **Longest Palindromic Substring** - 
@@ -55,3 +55,7 @@ no effect on the behavior of this function.
 [9.](https://github.com/dcragusa/LeetCode/blob/master/9.py)
 **Palindrome Number** - 
 Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
+
+[10.](https://github.com/dcragusa/LeetCode/blob/master/10.py)
+**Regular Expression Matching** - 
+Given an input string `s` and a pattern `p`, implement regular expression matching with support for `.` and `*`.
