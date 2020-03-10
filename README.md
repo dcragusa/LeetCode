@@ -70,3 +70,7 @@ the x-axis form a container, such that the container contains the most water.
 [12.](12.py)
 **Integer to Roman** - 
 Given an integer, convert it to a roman numeral. Input is guaranteed to be within the range from `1` to `3999`.
+
+[13.](13.py)
+**Roman to Integer** - 
+Given a roman numeral, convert it to an integer. Input is guaranteed to be within the range from `1` to `3999`.
