@@ -4,7 +4,7 @@ Roman numerals are represented by seven different symbols: I, V, X, L, C, D and 
     Symbol  I  V  X   L   C    D    M
     Value   1  5  10  50  100  500  1000
 
-For example, two is written as II in Roman numeral, just two one's added together. Twelve is written as XII,
+For example, two is written as II in Roman numerals, just two one's added together. Twelve is written as XII,
 which is simply X + II. The number twenty seven is written as XXVII, which is XX + V + II.
 
 Roman numerals are usually written largest to smallest from left to right. However, the numeral for four is not IIII.
@@ -37,7 +37,7 @@ Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 
 """
 This problem is fairly simple: we decrease the number, adding on to the output string as we go. The faster version
-uses a series of while loops, whilst the neat version condenses the while loops using a dictionary.
+uses a series of while loops, whilst the neat version condenses them using a dictionary.
 """
 
 
