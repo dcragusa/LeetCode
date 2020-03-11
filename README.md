@@ -74,3 +74,7 @@ Given an integer, convert it to a roman numeral. Input is guaranteed to be withi
 [13.](13.py)
 **Roman to Integer** - 
 Given a roman numeral, convert it to an integer. Input is guaranteed to be within the range from `1` to `3999`.
+
+[14.](14.py)
+**Longest Common Prefix** - 
+Write a function to find the longest common prefix string amongst an array of strings.
