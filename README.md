@@ -78,3 +78,7 @@ Given a roman numeral, convert it to an integer. Input is guaranteed to be withi
 [14.](14.py)
 **Longest Common Prefix** - 
 Write a function to find the longest common prefix string amongst an array of strings.
+
+[15.](15.py)
+**3Sum** - 
+Given an array `nums` of `n` integers, find all unique triplets in the array which give the sum of zero.
