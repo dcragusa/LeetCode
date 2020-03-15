@@ -101,3 +101,7 @@ that `a + b + c + d = target`? Find all unique quadruplets in the array which gi
 [19.](19.py)
 **Remove Nth Node From End of List** - 
 Given a linked list, remove the _n_-th node from the end of list and return its head.
+
+[20.](20.py)
+**Valid Parentheses** - 
+Given a string containing just the characters `(`, `)`, `{`, `}`, `[` and `]`, determine if the input string is valid.
