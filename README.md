@@ -97,3 +97,7 @@ buttons) that the number could represent.
 **4Sum** - 
 Given an array `nums` of `n` integers and an integer `target`, are there elements `a`, `b`, `c`, and `d` in `nums` such 
 that `a + b + c + d = target`? Find all unique quadruplets in the array which gives the sum of target.
+
+[19.](19.py)
+**Remove Nth Node From End of List** - 
+Given a linked list, remove the _n_-th node from the end of list and return its head.
