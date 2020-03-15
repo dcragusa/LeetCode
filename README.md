@@ -105,3 +105,8 @@ Given a linked list, remove the _n_-th node from the end of list and return its 
 [20.](20.py)
 **Valid Parentheses** - 
 Given a string containing just the characters `(`, `)`, `{`, `}`, `[` and `]`, determine if the input string is valid.
+
+[21.](21.py)
+**Merge Two Sorted Lists** - 
+Merge two sorted linked lists and return it as a new list. 
+The new list should be made by splicing together the nodes of the first two lists.
