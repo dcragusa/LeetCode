@@ -82,3 +82,8 @@ Write a function to find the longest common prefix string amongst an array of st
 [15.](15.py)
 **3Sum** - 
 Given an array `nums` of `n` integers, find all unique triplets in the array which give the sum of zero.
+
+[16.](16.py)
+**3Sum Closest** - 
+Given an array `nums` of `n` integers and an integer target, find three integers in nums such that the sum is closest 
+to target. Return the sum of the three integers. You may assume that each input would have exactly one solution.
