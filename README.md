@@ -92,3 +92,8 @@ to target. Return the sum of the three integers. You may assume that each input 
 **Letter Combinations of a Phone Number** - 
 Given a string containing digits from `2-9` inclusive, return all possible letter combinations (those on telephone
 buttons) that the number could represent.
+
+[18.](18.py)
+**4Sum** - 
+Given an array `nums` of `n` integers and an integer `target`, are there elements `a`, `b`, `c`, and `d` in `nums` such 
+that `a + b + c + d = target`? Find all unique quadruplets in the array which gives the sum of target.
