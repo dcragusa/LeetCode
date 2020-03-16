@@ -6,13 +6,15 @@ Example:
 Input: 1->2->4, 1->3->4, Output: 1->1->2->3->4->4
 """
 
+"""
+We take the lowest value as the head of the new linked list, then go through the two lists, adding the lowest value
+to the new linked list as we go.
+"""
+
 
 class ListNode:
     def __init__(self, x):
         self.val, self.next = x, None
-
-    def __repr__(self):
-        return f'{self.val}'
 
 
 def merge_two_lists(list1, list2):
