@@ -114,3 +114,7 @@ The new list should be made by splicing together the nodes of the first two list
 [22.](22.py)
 **Generate Parentheses** - 
 Given `n` pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
+
+[23.](23.py)
+**Merge k Sorted Lists** - 
+Merge k sorted linked lists and return it as one sorted list. Analyze and describe its complexity.
