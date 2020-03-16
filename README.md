@@ -110,3 +110,7 @@ Given a string containing just the characters `(`, `)`, `{`, `}`, `[` and `]`, d
 **Merge Two Sorted Lists** - 
 Merge two sorted linked lists and return it as a new list. 
 The new list should be made by splicing together the nodes of the first two lists.
+
+[22.](22.py)
+**Generate Parentheses** - 
+Given `n` pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
