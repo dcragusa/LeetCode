@@ -11,10 +11,7 @@ We take the lowest value as the head of the new linked list, then go through the
 to the new linked list as we go.
 """
 
-
-class ListNode:
-    def __init__(self, x):
-        self.val, self.next = x, None
+from shared import ListNode, linked_list_to_python_list
 
 
 def merge_two_lists(list1, list2):
@@ -40,25 +37,17 @@ def merge_two_lists(list1, list2):
     return head
 
 
-def linked_list_to_python_list(head):
-    python_list = []
-    node = head
-    while node:
-        python_list.append(node.val)
-        node = node.next
-    return python_list
+one1, one2, one3 = ListNode(1), ListNode(2), ListNode(4)
+one1.next, one2.next = one2, one3
+two1, two2, two3 = ListNode(1), ListNode(3), ListNode(4)
+two1.next, two2.next = two2, two3
+assert linked_list_to_python_list(merge_two_lists(one1, two1)) == [1, 1, 2, 3, 4, 4]
 
 
-one_1, two_1, four_1 = ListNode(1), ListNode(2), ListNode(4)
-one_1.next, two_1.next = two_1, four_1
-one_2, three_2, four_2 = ListNode(1), ListNode(3), ListNode(4)
-one_2.next, three_2.next = three_2, four_2
-assert linked_list_to_python_list(merge_two_lists(one_1, one_2)) == [1, 1, 2, 3, 4, 4]
+one1, one2, one3 = ListNode(1), ListNode(3), ListNode(4)
+one1.next, one2.next = one2, one3
+two1 = ListNode(2)
+assert linked_list_to_python_list(merge_two_lists(one1, two1)) == [1, 2, 3, 4]
 
-two_1 = ListNode(2)
-one_2, three_2, four_2 = ListNode(1), ListNode(3), ListNode(4)
-one_2.next, three_2.next = three_2, four_2
-assert linked_list_to_python_list(merge_two_lists(two_1, one_2)) == [1, 2, 3, 4]
-
-two_1 = ListNode(2)
-assert linked_list_to_python_list(merge_two_lists(two_1, None)) == [2]
+one1 = ListNode(2)
+assert linked_list_to_python_list(merge_two_lists(one1, None)) == [2]

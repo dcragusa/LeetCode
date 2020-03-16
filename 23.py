@@ -16,11 +16,7 @@ Space complexity: the only thing we are creating is the solution, so O(1).
 """
 
 from operator import attrgetter
-
-
-class ListNode:
-    def __init__(self, x):
-        self.val, self.next = x, None
+from shared import ListNode, linked_list_to_python_list
 
 
 def reverse_insort(lists, node):
@@ -52,22 +48,13 @@ def merge_k_lists(list_of_lists):
     return head
 
 
-def linked_list_to_python_list(head):
-    python_list = []
-    node = head
-    while node:
-        python_list.append(node.val)
-        node = node.next
-    return python_list
-
-
-one_1, four_1, five_1 = ListNode(1), ListNode(4), ListNode(5)
-one_1.next, four_1.next = four_1, five_1
-one_2, three_2, four_2 = ListNode(1), ListNode(3), ListNode(4)
-one_2.next, three_2.next = three_2, four_2
-two_3, six_3 = ListNode(2), ListNode(6)
-two_3.next = six_3
-assert linked_list_to_python_list(merge_k_lists([one_1, one_2, two_3])) == [1, 1, 2, 3, 4, 4, 5, 6]
+one1, one2, one3 = ListNode(1), ListNode(4), ListNode(5)
+one1.next, one2.next = one2, one3
+two1, two2, two3 = ListNode(1), ListNode(3), ListNode(4)
+two1.next, two2.next = two2, two3
+three1, three2 = ListNode(2), ListNode(6)
+three1.next = three2
+assert linked_list_to_python_list(merge_k_lists([one1, two1, three1])) == [1, 1, 2, 3, 4, 4, 5, 6]
 
 assert linked_list_to_python_list(merge_k_lists([[]])) == []
 

@@ -17,10 +17,7 @@ simply change the next node to the node after the removed one (unless we are rem
 the next node is set directly to None).
 """
 
-
-class ListNode:
-    def __init__(self, x):
-        self.val, self.next = x, None
+from shared import ListNode, linked_list_to_python_list
 
 
 def remove_nth_from_end(head, n):
@@ -41,41 +38,26 @@ def remove_nth_from_end(head, n):
     return head
 
 
-def linked_list_to_python_list(head):
-    python_list = []
-    node = head
-    while node:
-        python_list.append(node.val)
-        node = node.next
-    return python_list
-
-
 one, two, three, four, five = ListNode(1), ListNode(2), ListNode(3), ListNode(4), ListNode(5)
 one.next, two.next, three.next, four.next = two, three, four, five
-# print(linked_list_to_python_list(one))
 assert linked_list_to_python_list(remove_nth_from_end(one, 2)) == [1, 2, 3, 5]
 
 one = ListNode(1)
-# print(linked_list_to_python_list(one))
 assert linked_list_to_python_list(remove_nth_from_end(one, 1)) == []
 
 one, two = ListNode(1), ListNode(2)
 one.next = two
-# print(linked_list_to_python_list(one))
 assert linked_list_to_python_list(remove_nth_from_end(one, 1)) == [1]
 
 one, two = ListNode(1), ListNode(2)
 one.next = two
-# print(linked_list_to_python_list(one))
 assert linked_list_to_python_list(remove_nth_from_end(one, 2)) == [2]
 
 one, two, three = ListNode(1), ListNode(2), ListNode(3)
 one.next, two.next = two, three
-# print(linked_list_to_python_list(one))
 assert linked_list_to_python_list(remove_nth_from_end(one, 2)) == [1, 3]
 
 
 one, two, three = ListNode(1), ListNode(2), ListNode(3)
 one.next, two.next = two, three
-# print(linked_list_to_python_list(one))
 assert linked_list_to_python_list(remove_nth_from_end(one, 1)) == [1, 2]

@@ -14,13 +14,7 @@ We end up with current -> current.next.next -> current.next -> current.next.next
 two elements along and repeat.
 """
 
-
-class ListNode:
-    def __init__(self, x):
-        self.val, self.next = x, None
-
-    def __repr__(self):
-        return f'{self.val}'
+from shared import ListNode, linked_list_to_python_list
 
 
 def swap_pairs(head):
@@ -41,15 +35,6 @@ def swap_pairs(head):
         current.next = n_n
         current = current.next.next
     return head
-
-
-def linked_list_to_python_list(head):
-    python_list = []
-    node = head
-    while node:
-        python_list.append(node.val)
-        node = node.next
-    return python_list
 
 
 assert linked_list_to_python_list(swap_pairs(None)) == []
