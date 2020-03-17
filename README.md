@@ -140,3 +140,8 @@ Given an array `nums` and a value `val`, remove all instances of that value in-p
 **Find Needle in Haystack** - 
 Return the index of the first occurrence of a substring `needle` in a string `haystack`, 
 or -1 if `needle` is not part of `haystack`.
+
+[29.](29.py)
+**Divide Two Integers** - 
+Given two integers `dividend` and `divisor`, divide two integers without using multiplication, 
+division or mod operators. Return the quotient after dividing `dividend` by `divisor`.
