@@ -129,10 +129,14 @@ Given a linked list, reverse the nodes of a linked list `k` at a time and return
 
 [26.](26.py)
 **Remove Duplicates from Sorted Array** - 
-Given a sorted array `nums`, remove the duplicates in-place such that each element appear only once and return the 
+Given a sorted array `nums`, remove the duplicates in-place such that each element appears only once and return the 
 new length.
 
 [27.](27.py)
+**Remove Element** - 
+Given an array `nums` and a value `val`, remove all instances of that value in-place and return the new length.
+
+[28.](28.py)
 **Find Needle in Haystack** - 
 Return the index of the first occurrence of a substring `needle` in a string `haystack`, 
 or -1 if `needle` is not part of `haystack`.
