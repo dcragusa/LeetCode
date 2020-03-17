@@ -131,3 +131,7 @@ Given a linked list, reverse the nodes of a linked list `k` at a time and return
 **Remove Duplicates from Sorted Array** - 
 Given a sorted array `nums`, remove the duplicates in-place such that each element appear only once and return the 
 new length.
+
+[27.](27.py)
+**Remove Element** - 
+Given an array `nums` and a value `val`, remove all instances of that value in-place and return the new length.
