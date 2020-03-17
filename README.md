@@ -117,8 +117,12 @@ Given `n` pairs of parentheses, write a function to generate all combinations of
 
 [23.](23.py)
 **Merge k Sorted Lists** - 
-Merge k sorted linked lists and return it as one sorted list. Analyze and describe its complexity.
+Merge `k` sorted linked lists and return it as one sorted list. Analyze and describe its complexity.
 
 [24.](24.py)
 **Swap Nodes in Pairs** - 
 Given a linked list, swap every two adjacent nodes and return its head.
+
+[25.](25.py)
+**Reverse Nodes in k-Group** - 
+Given a linked list, reverse the nodes of a linked list `k` at a time and return its modified list.
