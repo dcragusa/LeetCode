@@ -18,9 +18,7 @@ from shared import ListNode, linked_list_to_python_list
 
 
 def swap_pairs(head):
-    if not head:
-        return None
-    if not head.next:
+    if not head or not head.next:
         return head
     current = head
     head = head.next
