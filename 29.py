@@ -23,6 +23,9 @@ The brute force solution is just to implement repeated subtraction.
 We can optimise this by implementing long multiplication/division.
 """
 
+MIN_INT = -2**31
+MAX_INT = 2**31 - 1
+
 
 # def divide(dividend, divisor):
 #     sign = 1 if (abs_dividend := abs(dividend)) + (abs_divisor := abs(divisor)) == abs(dividend + divisor) else -1
@@ -30,11 +33,13 @@ We can optimise this by implementing long multiplication/division.
 #     while abs_dividend - abs_divisor >= 0:
 #         quotient += 1
 #         abs_dividend -= abs_divisor
-#     return quotient * sign
-
-
-MIN_INT = -2**31
-MAX_INT = 2**31 - 1
+#     result = quotient * sign
+#     if result < MIN_INT:
+#         return MIN_INT
+#     elif result > MAX_INT:
+#         return MAX_INT
+#     else:
+#         return result
 
 
 def divide_positive_simple(dividend, divisor):
