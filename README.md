@@ -151,3 +151,9 @@ division or mod operators. Return the quotient after dividing `dividend` by `div
 You are given a string `s`, and a list of words `words` that are all of the same length. 
 Find all starting indices of substring(s) in `s` that is a concatenation of each word in `words` exactly once and 
 without any intervening characters.
+
+[31.](31.py)
+**Next Permutation** - 
+Implement `next_permutation`, which rearranges numbers into the lexicographically next greater permutation. If such an 
+arrangement is not possible, it must be rearranged as the lowest possible order (i.e. sorted in ascending order). 
+The replacement must be in-place and use only constant extra memory.
