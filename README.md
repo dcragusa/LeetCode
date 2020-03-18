@@ -145,3 +145,9 @@ or -1 if `needle` is not part of `haystack`.
 **Divide Two Integers** - 
 Given two integers `dividend` and `divisor`, divide two integers without using multiplication, 
 division or mod operators. Return the quotient after dividing `dividend` by `divisor`.
+
+[30.](30.py)
+**Substring with Concatenation of All Words** - 
+You are given a string `s`, and a list of words `words` that are all of the same length. 
+Find all starting indices of substring(s) in `s` that is a concatenation of each word in `words` exactly once and 
+without any intervening characters.
