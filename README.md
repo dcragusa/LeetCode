@@ -161,3 +161,10 @@ The replacement must be in-place and use only constant extra memory.
 [32.](32.py)
 **Longest Valid Parentheses** - 
 Given a string containing just the characters `(` and `)`, find the length of the longest valid parentheses substring.
+
+[33.](33.py)
+**Search in Rotated Sorted Array** - 
+Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand, e.g. 
+`[0, 1, 2, 4, 5, 6, 7]` might become `[4, 5, 6, 7, 0, 1, 2]`. You are given a target value to search. 
+If found in the array return its index, otherwise return `-1`. You may assume no duplicate exists in the array. 
+Your algorithm's runtime complexity must be in the order of `O(log n)`.
