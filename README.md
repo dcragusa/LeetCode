@@ -95,8 +95,8 @@ buttons) that the number could represent.
 
 [18.](18.py)
 **4Sum** - 
-Given an array `nums` of `n` integers and an integer `target`, are there elements `a`, `b`, `c`, and `d` in `nums` such 
-that `a + b + c + d = target`? Find all unique quadruplets in the array which gives the sum of target.
+Given an array `nums` of `n` integers and an integer `target`, are there elements `a`, `b`, `c`, and `d` in `nums` 
+such that `a + b + c + d = target`? Find all unique quadruplets in the array which gives the sum of target.
 
 [19.](19.py)
 **Remove Nth Node From End of List** - 
@@ -168,3 +168,8 @@ Suppose an array sorted in ascending order is rotated at some pivot unknown to y
 `[0, 1, 2, 4, 5, 6, 7]` might become `[4, 5, 6, 7, 0, 1, 2]`. You are given a target value to search. 
 If found in the array return its index, otherwise return `-1`. You may assume no duplicate exists in the array. 
 Your algorithm's runtime complexity must be in the order of `O(log n)`.
+
+[34.](34.py)
+**Find First and Last Position of Element in Sorted Array** - 
+Given an array of integers `nums` sorted in ascending order, find the starting and ending position of a given target 
+value. Your algorithm's runtime complexity must be in the order of `O(log n)`.
