@@ -178,3 +178,7 @@ value. Your algorithm's runtime complexity must be in the order of `O(log n)`.
 **Search Insert Position** - 
 Given a sorted array and a target value, return the index if the target is found. If not, 
 return the index where it would be if it were inserted in order. You may assume no duplicates in the array.
+
+[36.](36.py)
+**Valid Sudoku** - 
+Determine if a 9x9 Sudoku board is valid. Only the filled cells need to be validated.
