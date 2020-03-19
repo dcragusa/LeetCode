@@ -157,3 +157,7 @@ without any intervening characters.
 Implement `next_permutation`, which rearranges numbers into the lexicographically next greater permutation. If such an 
 arrangement is not possible, it must be rearranged as the lowest possible order (i.e. sorted in ascending order). 
 The replacement must be in-place and use only constant extra memory.
+
+[32.](32.py)
+**Longest Valid Parentheses** - 
+Given a string containing just the characters `(` and `)`, find the length of the longest valid parentheses substring.
