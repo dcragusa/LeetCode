@@ -173,3 +173,8 @@ Your algorithm's runtime complexity must be in the order of `O(log n)`.
 **Find First and Last Position of Element in Sorted Array** - 
 Given an array of integers `nums` sorted in ascending order, find the starting and ending position of a given target 
 value. Your algorithm's runtime complexity must be in the order of `O(log n)`.
+
+[35.](35.py)
+**Search Insert Position** - 
+Given a sorted array and a target value, return the index if the target is found. If not, 
+return the index where it would be if it were inserted in order. You may assume no duplicates in the array.
