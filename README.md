@@ -215,3 +215,8 @@ Your algorithm should run in `O(n)` time and use constant extra space.
 **Trapping Rain Water** - 
 Given `n` non-negative integers representing an elevation map where the width of each bar is 1, 
 compute how much water it is able to trap after raining.
+
+[43.](50/43.py)
+**Multiply Strings** - 
+Given two non-negative integers `num1` and `num2` represented as strings, return the product of `num1` and `num2`, 
+also represented as a string. You must not convert the inputs to integers directly.
