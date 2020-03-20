@@ -205,3 +205,8 @@ The same repeated number may be chosen from `candidates` unlimited number of tim
 Given a collection of candidate numbers `candidates` and a target number `target`, 
 find all unique combinations in `candidates` where the candidate numbers sum to `target`.
 Each number in `candidates` may only be used once in the combination.
+
+[40.](40.py)
+**First Missing Positive** - 
+Given an unsorted integer array, find the smallest missing positive integer. 
+Your algorithm should run in `O(n)` time and use constant extra space.
