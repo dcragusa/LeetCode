@@ -193,3 +193,9 @@ The count-and-say sequence is the sequence of integers with the first five terms
 `1, 11, 21, 1211, 111221`. `1` is read off as "one 1" or `11`. `11` is read off as "two 1s" or `21`. 
 `21` is read off as "one 2, then one 1" or `1211`. Given an integer `n` where `1 ≤ n ≤ 30`, 
 generate the *n*th term of the count-and-say sequence.
+
+[39.](39.py)
+**Combination Sum** - 
+Given a set of candidate numbers `candidates` (without duplicates) and a target number `target`, 
+find all unique combinations in `candidates` where the candidate numbers sum to `target`.
+The same repeated number may be chosen from candidates unlimited number of times.
