@@ -10,16 +10,23 @@ Input: [0,1,0,2,1,0,1,3,2,1,2,1], Output: 6
 1 - | w | | w | | | | | |
 """
 
+"""
+First we find the index of the maximum of the array (it doesn't matter if there is more than one). Then we divide the
+array in two halves split on the index, counting forward and backward with a local maximum. If the wall is lower than
+the local maximum, we add (local max - wall height) to a counter, and if the wall is equal or higher to the local
+maximum, we add the counter to the total water count and reset the counter to 0.
+"""
+
 
 def trap(heights):
     if not heights:
         return 0
     max_wall_idx = heights.index(max(heights))
     total_water = water = 0
-    for bisected in [range(max_wall_idx), range(-1, -(len(heights)-max_wall_idx+1), -1)]:
+    for bisected in [heights[:max_wall_idx+1], reversed(heights[max_wall_idx:])]:
         current_max = 0
-        for idx in bisected:
-            if (wall := heights[idx]) >= current_max:
+        for wall in bisected:
+            if wall >= current_max:
                 current_max = wall
                 total_water += water
                 water = 0
