@@ -186,3 +186,7 @@ Determine if a 9x9 Sudoku board is valid. Only the filled cells need to be valid
 [37.](37.py)
 **Sudoku Solver** - 
 Write a program to solve a Sudoku puzzle by filling the empty cells.
+
+[38.](38.py)
+**Count and Say** - 
+Write a program to solve a Sudoku puzzle by filling the empty cells.
