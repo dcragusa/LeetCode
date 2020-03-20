@@ -182,3 +182,7 @@ return the index where it would be if it were inserted in order. You may assume 
 [36.](36.py)
 **Valid Sudoku** - 
 Determine if a 9x9 Sudoku board is valid. Only the filled cells need to be validated.
+
+[37.](37.py)
+**Sudoku Solver** - 
+Write a program to solve a Sudoku puzzle by filling the empty cells.
