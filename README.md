@@ -86,7 +86,7 @@ Given an array `nums` of `n` integers, find all unique triplets in the array whi
 [16.](20/16.py)
 **3Sum Closest** - 
 Given an array `nums` of `n` integers and an integer target, find three integers in nums such that the sum is closest 
-to target. Return the sum of the three integers. You may assume that each input would have exactly one solution.
+to `target`. Return the sum of the three integers. You may assume that each input has exactly one solution.
 
 [17.](20/17.py)
 **Letter Combinations of a Phone Number** - 
@@ -96,11 +96,11 @@ buttons) that the number could represent.
 [18.](20/18.py)
 **4Sum** - 
 Given an array `nums` of `n` integers and an integer `target`, are there elements `a`, `b`, `c`, and `d` in `nums` 
-such that `a + b + c + d = target`? Find all unique quadruplets in the array which gives the sum of target.
+such that `a + b + c + d = target`? Find all unique quadruplets in the array which gives the sum of `target`.
 
 [19.](20/19.py)
 **Remove Nth Node From End of List** - 
-Given a linked list, remove the _n_-th node from the end of list and return its head.
+Given a linked list, remove the n<sup>th</sup> node from the end of list and return its head.
 
 [20.](20/20.py)
 **Valid Parentheses** - 
@@ -220,3 +220,9 @@ compute how much water it is able to trap after raining.
 **Multiply Strings** - 
 Given two non-negative integers `num1` and `num2` represented as strings, return the product of `num1` and `num2`, 
 also represented as a string. You must not convert the inputs to integers directly.
+
+[44.](50/44.py)
+**Wildcard Matching** - 
+Given an input string `s` and a pattern `p`, implement wildcard pattern matching with support for `?` and `*`.
+`?` Matches any single character, while `*` matches any sequence of characters (including the empty sequence).
+The matching should cover the entire input string.
