@@ -240,3 +240,7 @@ Given a collection of distinct integers, return all possible permutations.
 [47.](50/47.py)
 **Permutations II** - 
 Given a collection of integers that might contain duplicates, return all possible unique permutations.
+
+[48.](50/48.py)
+**Rotate Image** - 
+You are given an `n x n` 2D matrix representing an image. Rotate the matrix 90 degrees clockwise in-place.
