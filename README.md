@@ -226,3 +226,9 @@ also represented as a string. You must not convert the inputs to integers direct
 Given an input string `s` and a pattern `p`, implement wildcard pattern matching with support for `?` and `*`.
 `?` Matches any single character, while `*` matches any sequence of characters (including the empty sequence).
 The matching should cover the entire input string.
+
+[45.](50/45.py)
+**Jump Game II** - 
+You are given an array of non-negative integers, and are initially positioned at the first index of the array. 
+Each element in the array represents your maximum jump length from that position. 
+Return the fewest number of jumps to reach the last index. You can assume that you can always reach the last index.
