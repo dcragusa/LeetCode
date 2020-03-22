@@ -232,3 +232,7 @@ The matching should cover the entire input string.
 You are given an array of non-negative integers, and are initially positioned at the first index of the array. 
 Each element in the array represents your maximum jump length from that position. 
 Return the fewest number of jumps to reach the last index. You can assume that you can always reach the last index.
+
+[46.](50/46.py)
+**Permutations** - 
+Given a collection of distinct integers, return all possible permutations.
