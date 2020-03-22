@@ -236,3 +236,7 @@ Return the fewest number of jumps to reach the last index. You can assume that y
 [46.](50/46.py)
 **Permutations** - 
 Given a collection of distinct integers, return all possible permutations.
+
+[47.](50/47.py)
+**Permutations II** - 
+Given a collection of integers that might contain duplicates, return all possible unique permutations.
