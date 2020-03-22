@@ -19,7 +19,8 @@ def permutations(nums):
     else:
         combinations = []
         for idx, num in enumerate(nums):
-            combinations.extend([[num] + combination for combination in permutations(nums[:idx] + nums[idx+1:])])
+            partial_list = nums[:idx] + nums[idx+1:]
+            combinations.extend([[num] + combination for combination in permutations(partial_list)])
         return combinations
 
 
