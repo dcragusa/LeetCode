@@ -248,3 +248,7 @@ You are given an `n x n` 2D matrix representing an image. Rotate the matrix 90 d
 [49.](50/49.py)
 **Group Anagrams** - 
 Given an array of strings, group anagrams together.
+
+[50.](50/50.py)
+**pow(x, n)** - 
+Implement `pow(x, n)`, which calculates `x` raised to the power `n` (<code>x<sup>n</sup></code>).
