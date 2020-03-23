@@ -252,3 +252,8 @@ Given an array of strings, group anagrams together.
 [50.](50/50.py)
 **pow(x, n)** - 
 Implement `pow(x, n)`, which calculates `x` raised to the power `n` (<code>x<sup>n</sup></code>).
+
+[51.](60/51.py)
+**_n_-queens** - 
+The _n_-queens puzzle is the problem of placing `n` queens on an `n × n` chessboard such that no two queens attack 
+each other. Given an integer `n`, return all distinct solutions to the _n_-queens puzzle.
