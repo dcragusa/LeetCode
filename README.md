@@ -262,3 +262,9 @@ each other. Given an integer `n`, return all distinct solutions to the _n_-queen
 **_n_-queens II** - 
 The _n_-queens puzzle is the problem of placing `n` queens on an `n × n` chessboard such that no two queens attack 
 each other. Given an integer `n`, return the number of distinct solutions to the _n_-queens puzzle.
+
+[53.](60/53.py)
+**Maximum Subarray** - 
+Given an integer array `nums`, find the contiguous subarray (containing at least one number) which has the largest 
+sum and return its sum.
+
