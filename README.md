@@ -257,3 +257,8 @@ Implement `pow(x, n)`, which calculates `x` raised to the power `n` (<code>x<sup
 **_n_-queens** - 
 The _n_-queens puzzle is the problem of placing `n` queens on an `n × n` chessboard such that no two queens attack 
 each other. Given an integer `n`, return all distinct solutions to the _n_-queens puzzle.
+
+[52.](60/52.py)
+**_n_-queens II** - 
+The _n_-queens puzzle is the problem of placing `n` queens on an `n × n` chessboard such that no two queens attack 
+each other. Given an integer `n`, return the number of distinct solutions to the _n_-queens puzzle.
