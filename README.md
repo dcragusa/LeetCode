@@ -271,3 +271,10 @@ sum and return its sum.
 [54.](60/54.py)
 **Spiral Matrix** - 
 Given a matrix of `m x n` elements (`m` rows, `n` columns), return all elements of the matrix in spiral order.
+
+[55.](60/55.py)
+**Jump Game** - 
+You are given an array of non-negative integers, and are initially positioned at the first index of the array. 
+Each element in the array represents your maximum jump length from that position. 
+Determine if you are able to reach the last index.
+e last index.
