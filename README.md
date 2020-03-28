@@ -286,3 +286,8 @@ Given a collection of intervals, merge all overlapping intervals.
 **Insert Interval** - 
 Given a set of non-overlapping intervals, insert a new interval into the intervals (merge if necessary).
 You may assume that the intervals were initially sorted according to their start times.
+
+[58.](60/58.py)
+**Length of Last Word** - 
+Given a string `s` consisting of upper/lower-case characters and empty space characters ' ', return the length of the
+last word in the string. If the last word does not exist, return `0`.
