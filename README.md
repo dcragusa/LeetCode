@@ -289,5 +289,10 @@ You may assume that the intervals were initially sorted according to their start
 
 [58.](60/58.py)
 **Length of Last Word** - 
-Given a string `s` consisting of upper/lower-case characters and empty space characters ' ', return the length of the
-last word in the string. If the last word does not exist, return `0`.
+Given a string `s` consisting of upper/lower-case characters and empty space characters `' '`, return the length of 
+the last word in the string. If the last word does not exist, return `0`.
+
+[59.](60/59.py)
+**Spiral Matrix II** - 
+Given a positive integer `n`, generate a square matrix filled with elements from `1` to <code>n<sup>2</sup></code> 
+in spiral order.
