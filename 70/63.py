@@ -26,21 +26,22 @@ assign the current number of paths to num_path depending on whether there is an 
 The result is the last value in num_paths.
 """
 
+from itertools import product
+
 
 def unique_paths_with_obstacles(obstacle_grid):
     num_paths = [[0 for _ in range(len(obstacle_grid[0]))] for _ in range(len(obstacle_grid))]
     if obstacle_grid[0][0] or obstacle_grid[-1][-1]:
         return 0
     num_paths[0][0] = 1
-    for row_idx, row in enumerate(obstacle_grid):
-        for col_idx, row in enumerate(row):
-            if row_idx == col_idx == 0:
-                continue
-            paths_above = 0 if not row_idx else (
-                0 if obstacle_grid[row_idx-1][col_idx] else num_paths[row_idx-1][col_idx])
-            paths_left = 0 if not col_idx else (
-                0 if obstacle_grid[row_idx][col_idx-1] else num_paths[row_idx][col_idx-1])
-            num_paths[row_idx][col_idx] = paths_above + paths_left
+    for row_idx, col_idx in product(range(len(obstacle_grid)), range(len(obstacle_grid[0]))):
+        if row_idx == col_idx == 0:
+            continue
+        paths_above = 0 if not row_idx else (
+            0 if obstacle_grid[row_idx-1][col_idx] else num_paths[row_idx-1][col_idx])
+        paths_left = 0 if not col_idx else (
+            0 if obstacle_grid[row_idx][col_idx-1] else num_paths[row_idx][col_idx-1])
+        num_paths[row_idx][col_idx] = paths_above + paths_left
     return num_paths[-1][-1]
 
 
