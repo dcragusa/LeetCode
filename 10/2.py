@@ -18,7 +18,7 @@ We add a new node on to the last node as we complete each digit, and make the la
 We only end when both lists are exhausted and there is no carry. Then we return the first node.
 """
 
-from shared import ListNode, linked_list_to_python_list
+from shared import ListNode, python_list_to_linked_list, linked_list_to_python_list
 
 
 def add_two_numbers(l1, l2):
@@ -47,19 +47,14 @@ def add_two_numbers(l1, l2):
         l2 = None if l2 is None else l2.next
 
 
-one1, one2, one3 = ListNode(2), ListNode(4), ListNode(3)
-one1.next, one2.next = one2, one3
-two1, two2, two3 = ListNode(5), ListNode(6), ListNode(4)
-two1.next, two2.next = two2, two3
-assert linked_list_to_python_list(add_two_numbers(one1, two1)) == [7, 0, 8]
+one = python_list_to_linked_list([2, 4, 3])
+two = python_list_to_linked_list([5, 6, 4])
+assert linked_list_to_python_list(add_two_numbers(one, two)) == [7, 0, 8]
 
-one1, one2, one3 = ListNode(1), ListNode(2), ListNode(3)
-one1.next, one2.next = one2, one3
-two1 = ListNode(0)
-assert linked_list_to_python_list(add_two_numbers(one1, two1)) == [1, 2, 3]
+one = python_list_to_linked_list([1, 2, 3])
+two = python_list_to_linked_list([0])
+assert linked_list_to_python_list(add_two_numbers(one, two)) == [1, 2, 3]
 
-one1, one2, one3 = ListNode(1), ListNode(1), ListNode(9)
-one1.next, one2.next = one2, one3
-two1, two2, two3 = ListNode(1), ListNode(1), ListNode(9)
-two1.next, two2.next = two2, two3
-assert linked_list_to_python_list(add_two_numbers(one1, two1)) == [2, 2, 8, 1]
+one = python_list_to_linked_list([1, 1, 9])
+two = python_list_to_linked_list([1, 1, 9])
+assert linked_list_to_python_list(add_two_numbers(one, two)) == [2, 2, 8, 1]

@@ -14,7 +14,7 @@ We end up with current -> current.next.next -> current.next -> current.next.next
 two elements along and repeat.
 """
 
-from shared import ListNode, linked_list_to_python_list
+from shared import python_list_to_linked_list, linked_list_to_python_list
 
 
 def swap_pairs(head):
@@ -37,20 +37,17 @@ def swap_pairs(head):
 
 assert linked_list_to_python_list(swap_pairs(None)) == []
 
-assert linked_list_to_python_list(swap_pairs(ListNode(1))) == [1]
+head = python_list_to_linked_list([1])
+assert linked_list_to_python_list(swap_pairs(head)) == [1]
 
-one, two = ListNode(1), ListNode(2)
-one.next = two
-assert linked_list_to_python_list(swap_pairs(one)) == [2, 1]
+head = python_list_to_linked_list([1, 2])
+assert linked_list_to_python_list(swap_pairs(head)) == [2, 1]
 
-one, two, three = ListNode(1), ListNode(2), ListNode(3)
-one.next, two.next = two, three
-assert linked_list_to_python_list(swap_pairs(one)) == [2, 1, 3]
+head = python_list_to_linked_list([1, 2, 3])
+assert linked_list_to_python_list(swap_pairs(head)) == [2, 1, 3]
 
-one, two, three, four, five, six = ListNode(1), ListNode(2), ListNode(3), ListNode(4), ListNode(5), ListNode(6)
-one.next, two.next, three.next, four.next, five.next = two, three, four, five, six
-assert linked_list_to_python_list(swap_pairs(one)) == [2, 1, 4, 3, 6, 5]
+head = python_list_to_linked_list([1, 2, 3, 4, 5, 6])
+assert linked_list_to_python_list(swap_pairs(head)) == [2, 1, 4, 3, 6, 5]
 
-one, two, three, four = ListNode(1), ListNode(2), ListNode(3), ListNode(4)
-one.next, two.next, three.next = two, three, four
-assert linked_list_to_python_list(swap_pairs(one)) == [2, 1, 4, 3]
+head = python_list_to_linked_list([1, 2, 3, 4])
+assert linked_list_to_python_list(swap_pairs(head)) == [2, 1, 4, 3]

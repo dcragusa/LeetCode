@@ -7,6 +7,18 @@ class ListNode:
         return f'{self.val}'
 
 
+def python_list_to_linked_list(items):
+    head, prev = None, None
+    for item in items:
+        node = ListNode(item)
+        if not head:
+            head = node
+        if prev:
+            prev.next = node
+        prev = node
+    return head
+
+
 def linked_list_to_python_list(head):
     python_list = []
     while head:

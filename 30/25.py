@@ -20,7 +20,7 @@ list, keeping track of the current tail and establishing the head of the next gr
 attach the current tail to the newly obtained head. We continue this process until the list is exhausted.
 """
 
-from shared import ListNode, linked_list_to_python_list
+from shared import python_list_to_linked_list, linked_list_to_python_list
 
 
 def reverse_k_group(head, k):
@@ -52,12 +52,11 @@ def reverse_k_group(head, k):
     return ret
 
 
-one, two, three, four, five = ListNode(1), ListNode(2), ListNode(3), ListNode(4), ListNode(5)
-one.next, two.next, three.next, four.next = two, three, four, five
-assert linked_list_to_python_list(reverse_k_group(one, 2)) == [2, 1, 4, 3, 5]
+head = python_list_to_linked_list([1, 2, 3, 4, 5])
+assert linked_list_to_python_list(reverse_k_group(head, 2)) == [2, 1, 4, 3, 5]
 
-one.next, two.next, three.next, four.next = two, three, four, five
-assert linked_list_to_python_list(reverse_k_group(one, 3)) == [3, 2, 1, 4, 5]
+head = python_list_to_linked_list([1, 2, 3, 4, 5])
+assert linked_list_to_python_list(reverse_k_group(head, 3)) == [3, 2, 1, 4, 5]
 
-one.next, two.next, three.next, four.next = two, three, four, five
-assert linked_list_to_python_list(reverse_k_group(one, 4)) == [4, 3, 2, 1, 5]
+head = python_list_to_linked_list([1, 2, 3, 4, 5])
+assert linked_list_to_python_list(reverse_k_group(head, 4)) == [4, 3, 2, 1, 5]
