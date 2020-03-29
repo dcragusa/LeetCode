@@ -304,3 +304,8 @@ Given `n` and `k`, return the k<sup>th</sup> permutation of the permutations obt
 [61.](70/61.py)
 **Rotate List** - 
 Given a linked list, rotate the list to the right by `k` places, where `k` is non-negative.
+
+[62.](70/62.py)
+**Unique Paths** - 
+A robot is located at the top-left corner of an `m x n` grid. The robot can only move either down or right at any point 
+in time. The robot is trying to reach the bottom-right corner of the grid. How many possible unique paths are there?
