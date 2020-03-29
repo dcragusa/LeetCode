@@ -309,3 +309,9 @@ Given a linked list, rotate the list to the right by `k` places, where `k` is no
 **Unique Paths** - 
 A robot is located at the top-left corner of an `m x n` grid. The robot can only move either down or right at any point 
 in time. The robot is trying to reach the bottom-right corner of the grid. How many possible unique paths are there?
+
+[63.](70/63.py)
+**Unique Paths II** - 
+A robot is located at the top-left corner of an `m x n` grid. The robot can only move either down or right at any point 
+in time. The robot is trying to reach the bottom-right corner of the grid. Now consider if some obstacles are added to 
+the grid. How many unique paths would there be? An obstacle and empty space is marked as 1 and 0 respectively.
