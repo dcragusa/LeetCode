@@ -300,3 +300,7 @@ in spiral order.
 [60.](60/60.py)
 **Permutation Sequence** - 
 Given `n` and `k`, return the k<sup>th</sup> permutation of the permutations obtained from the set `[1,2,3,...,n]`.
+
+[61.](70/61.py)
+**Rotate List** - 
+Given a linked list, rotate the list to the right by `k` places, where `k` is non-negative.
