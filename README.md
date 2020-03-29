@@ -100,7 +100,7 @@ such that `a + b + c + d = target`? Find all unique quadruplets in the array whi
 
 [19.](20/19.py)
 **Remove Nth Node From End of List** - 
-Given a linked list, remove the n<sup>th</sup> node from the end of list and return its head.
+Given a linked list, remove the `n`<sup>th</sup> node from the end of list and return its head.
 
 [20.](20/20.py)
 **Valid Parentheses** - 
@@ -296,3 +296,7 @@ the last word in the string. If the last word does not exist, return `0`.
 **Spiral Matrix II** - 
 Given a positive integer `n`, generate a square matrix filled with elements from `1` to <code>n<sup>2</sup></code> 
 in spiral order.
+
+[60.](60/60.py)
+**Permutation Sequence** - 
+Given `n` and `k`, return the k<sup>th</sup> permutation of the permutations obtained from the set `[1,2,3,...,n]`.
