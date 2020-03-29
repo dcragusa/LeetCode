@@ -315,3 +315,8 @@ in time. The robot is trying to reach the bottom-right corner of the grid. How m
 A robot is located at the top-left corner of an `m x n` grid. The robot can only move either down or right at any point 
 in time. The robot is trying to reach the bottom-right corner of the grid. Now consider if some obstacles are added to 
 the grid. How many unique paths would there be? An obstacle and empty space is marked as 1 and 0 respectively.
+
+[64.](70/64.py)
+**Minimum Path Sum** - 
+Given an `m x n` grid filled with non-negative numbers, find a path from top left to bottom right which minimizes the 
+sum of all numbers along its path. You can only move either down or right at any point in time.
