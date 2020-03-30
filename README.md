@@ -320,3 +320,7 @@ the grid. How many unique paths would there be? An obstacle and empty space is m
 **Minimum Path Sum** - 
 Given an `m x n` grid filled with non-negative numbers, find a path from top left to bottom right which minimizes the 
 sum of all numbers along its path. You can only move either down or right at any point in time.
+
+[65.](70/65.py)
+**Valid Number** - 
+Validate if a given string can be interpreted as a decimal number.
