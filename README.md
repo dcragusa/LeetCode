@@ -334,3 +334,9 @@ You may assume the integer does not contain any leading zero, except the number 
 [67.](70/67.py)
 **Add Binary** - 
 Given two binary strings, return their sum (also a binary string). The input strings are both non-empty.
+
+[68.](70/68.py)
+**Text Justification** - 
+Given an array `words` and a width `max_width`, format the text such that each line has exactly `max_width` characters 
+and is fully justified. Extra spaces between words should be distributed as evenly as possible, with priority to the 
+slots on the left. The last line of text should be left justified, with no extra space inserted between words.
