@@ -354,3 +354,6 @@ In how many distinct ways can you climb to the top?
 **Simplify Path** - 
 Given an absolute path for a file (Unix-style), simplify it. Or in other words, convert it to the canonical path.
 
+[72.](80/72.py)
+**Edit Distance** - 
+Given two words `word1` and `word2`, find the minimum number of operations required to convert `word1` to `word2`.
