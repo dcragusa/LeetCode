@@ -344,3 +344,9 @@ slots on the left. The last line of text should be left justified, with no extra
 [69.](70/69.py)
 **sqrt(x)** - 
 Compute and return the decimally truncated square root of x, where x is guaranteed to be a non-negative integer.
+
+[70.](70/70.py)
+**Climbing Stairs** - 
+You are climbing a staircase with `n` steps. Each time you can either climb 1 or 2 steps. 
+In how many distinct ways can you climb to the top?
+
