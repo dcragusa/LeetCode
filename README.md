@@ -340,3 +340,7 @@ Given two binary strings, return their sum (also a binary string). The input str
 Given an array `words` and a width `max_width`, format the text such that each line has exactly `max_width` characters 
 and is fully justified. Extra spaces between words should be distributed as evenly as possible, with priority to the 
 slots on the left. The last line of text should be left justified, with no extra space inserted between words.
+
+[69.](70/69.py)
+**sqrt(x)** - 
+Compute and return the decimally truncated square root of x, where x is guaranteed to be a non-negative integer.
