@@ -324,3 +324,9 @@ sum of all numbers along its path. You can only move either down or right at any
 [65.](70/65.py)
 **Valid Number** - 
 Validate if a given string can be interpreted as a decimal number.
+
+[66.](70/66.py)
+**Plus One** - 
+Given a non-empty array of digits representing a non-negative integer, add one to the integer. The digits are stored 
+such that the most significant digit is at the head of the list, and each element in the array contain a single digit.
+You may assume the integer does not contain any leading zero, except the number 0 itself.
