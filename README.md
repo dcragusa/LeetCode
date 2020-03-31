@@ -343,10 +343,14 @@ slots on the left. The last line of text should be left justified, with no extra
 
 [69.](70/69.py)
 **sqrt(x)** - 
-Compute and return the decimally truncated square root of x, where x is guaranteed to be a non-negative integer.
+Compute and return the decimally truncated square root of `x`, where `x` is guaranteed to be a non-negative integer.
 
 [70.](70/70.py)
 **Climbing Stairs** - 
 You are climbing a staircase with `n` steps. Each time you can either climb 1 or 2 steps. 
 In how many distinct ways can you climb to the top?
+
+[71.](80/71.py)
+**Simplify Path** - 
+Given an absolute path for a file (Unix-style), simplify it. Or in other words, convert it to the canonical path.
 
