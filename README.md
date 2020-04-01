@@ -357,3 +357,7 @@ Given an absolute path for a file (Unix-style), simplify it. Or in other words, 
 [72.](80/72.py)
 **Edit Distance** - 
 Given two words `word1` and `word2`, find the minimum number of operations required to convert `word1` to `word2`.
+
+[73.](80/73.py)
+**Set Matrix Zeroes** - 
+Given an `m x n` matrix, if an element is 0, set its entire row and column to 0. Do it in-place.
