@@ -366,3 +366,8 @@ Given an `m x n` matrix, if an element is 0, set its entire row and column to 0.
 **Search a 2D Matrix** - 
 Write an efficient algorithm that searches for a value in an `m x n` matrix of integers. Each row is sorted from left 
 to right. The first integer of each row is greater than the last integer of the previous row.
+
+[75.](80/75.py)
+**Sort Colors** - 
+Given an array with `n` objects colored red, white or blue (represented by integers `0`, `1`, and `2`), sort them 
+in-place so that objects of the same color are adjacent, with the colors in the order red, white and blue.
