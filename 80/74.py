@@ -36,8 +36,8 @@ def search_matrix(matrix, target):
     row_idx = bisect_right(first_col, target)
     if not row_idx:
         return False
-    col = bisect_left(matrix[row_idx-1], target)
-    return col != len(matrix[row_idx-1]) and matrix[row_idx-1][col] == target
+    col_idx = bisect_left(matrix[row_idx-1], target)
+    return col_idx != len(matrix[row_idx-1]) and matrix[row_idx-1][col_idx] == target
 
 
 assert search_matrix([[]], 1) is False
