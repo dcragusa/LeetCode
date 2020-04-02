@@ -361,3 +361,8 @@ Given two words `word1` and `word2`, find the minimum number of operations requi
 [73.](80/73.py)
 **Set Matrix Zeroes** - 
 Given an `m x n` matrix, if an element is 0, set its entire row and column to 0. Do it in-place.
+
+[74.](80/74.py)
+**Search a 2D Matrix** - 
+Write an efficient algorithm that searches for a value in an `m x n` matrix of integers. Each row is sorted from left 
+to right. The first integer of each row is greater than the last integer of the previous row.
