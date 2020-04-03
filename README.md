@@ -375,3 +375,7 @@ in-place so that objects of the same color are adjacent, with the colors in the 
 [76.](80/76.py)
 **Minimum Window Substring** - 
 Given strings `S` and `T`, find the minimum window in `S` which contains all characters of `T` in complexity `O(n)`.
+
+[77.](80/77.py)
+**Combinations** - 
+Given two integers `n` and `k`, return all possible combinations of `k` numbers out of `1 ... n`.
