@@ -379,3 +379,7 @@ Given strings `S` and `T`, find the minimum window in `S` which contains all cha
 [77.](80/77.py)
 **Combinations** - 
 Given two integers `n` and `k`, return all possible combinations of `k` numbers out of `1 ... n`.
+
+[78.](80/78.py)
+**Subsets** - 
+Given a set of distinct integers `nums`, return all possible subsets (the power set).
