@@ -434,3 +434,14 @@ Given a sorted array `nums`, remove the duplicates in-place such that duplicates
 new length.
 
 </details>
+
+<details>
+<summary><b>81-90</b></summary>
+
+[81.](90/81.py)
+**Search in Rotated Sorted Array II** - 
+Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.
+(e.g., `[0, 0, 1, 2, 2, 5, 6]` might become `[2, 5, 6, 0, 0, 1, 2]`).
+You are given a target value to search. If found in the array return `True`, otherwise return `False`.
+
+</details>
