@@ -26,7 +26,7 @@ def search(nums, target):
         return False
     low, high = 0, len(nums) - 1
     pivot = nums[0]
-    while pivot == nums[high]:
+    while low < high and pivot == nums[high]:
         high -= 1
     while low <= high:
         mid = (low + high) // 2
@@ -46,6 +46,8 @@ def search(nums, target):
     return False
 
 
+assert search([], 0) is False
+assert search([1], 0) is False
 assert search([2, 5, 6, 0, 0, 1, 2], 0) is True
 assert search([2, 5, 6, 0, 0, 1, 2], 3) is False
 assert search([1, 3, 1, 1, 1], 3) is True
