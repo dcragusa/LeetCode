@@ -5,6 +5,10 @@ My solutions to LeetCode problems.
 Each file has a problem statement, my solution, and a couple of tests, occasionally with my reasoning on how the 
 solution was achieved.
 
+#### 1-10
+<details>
+<summary>Click to expand</summary>
+
 [1.](10/1.py)
 **Two Sum** - 
 Given an array of integers, return indices of the two numbers such that they add up to a specific target.
@@ -59,6 +63,8 @@ Determine whether an integer is a palindrome. An integer is a palindrome when it
 [10.](10/10.py)
 **Regular Expression Matching** - 
 Given an input string `s` and a pattern `p`, implement regular expression matching with support for `.` and `*`.
+
+</details>
 
 [11.](20/11.py)
 **Container With Most Water** - 
