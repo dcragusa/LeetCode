@@ -29,7 +29,8 @@ for (int i = 0; i < len; i++) {
 
 """
 We cannot use a range if we are manipulating the index during the loop, so we use an infinite loop and manually break
-when the index gets to the size of the list. 
+when the index gets to the size of the list. We simply check if the value is equal to the previous one (including a
+sentinel value at the start to avoid boundary issues) and if so, we delete that value from the list.
 """
 
 
@@ -39,12 +40,11 @@ def remove_duplicates(nums):
     while True:
         if idx == len(nums):
             return idx
-        elif (num := nums[idx]) != prev:
-            prev = num
-        else:
+        elif (num := nums[idx]) == prev:
             del nums[idx]
-            idx -= 1
-        idx += 1
+        else:
+            prev = num
+            idx += 1
 
 
 nums = [1, 2]
