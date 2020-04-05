@@ -383,3 +383,9 @@ Given two integers `n` and `k`, return all possible combinations of `k` numbers 
 [78.](80/78.py)
 **Subsets** - 
 Given a set of distinct integers `nums`, return all possible subsets (the power set).
+
+[79.](80/79.py)
+**Word Search** - 
+Given a 2D board and a word, find if the word exists in the grid. The word can be constructed from letters of 
+sequentially adjacent cells, where "adjacent" cells are those horizontally or vertically neighboring. 
+The same cell may not be used more than once.
