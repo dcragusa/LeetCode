@@ -229,7 +229,7 @@ Each number in `candidates` may only be used once in the combination.
 <details>
 <summary><b>41-50</b></summary>
 
-[41.](41/41.py)
+[41.](50/41.py)
 **First Missing Positive** - 
 Given an unsorted integer array, find the smallest missing positive integer. 
 Your algorithm should run in `O(n)` time and use constant extra space.
@@ -443,5 +443,10 @@ new length.
 Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.
 (e.g., `[0, 0, 1, 2, 2, 5, 6]` might become `[2, 5, 6, 0, 0, 1, 2]`).
 You are given a target value to search. If found in the array return `True`, otherwise return `False`.
+
+[82.](90/82.py)
+**Remove Duplicates from Sorted List II** - 
+Given a sorted linked list, delete all nodes that have duplicate numbers, leaving only distinct numbers from the 
+original list. Return the linked list sorted as well.
 
 </details>
