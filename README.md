@@ -449,4 +449,8 @@ You are given a target value to search. If found in the array return `True`, oth
 Given a sorted linked list, delete all nodes that have duplicate numbers, leaving only distinct numbers from the 
 original list. Return the linked list sorted as well.
 
+[83.](90/83.py)
+**Remove Duplicates from Sorted List** - 
+Given a sorted linked list, delete all duplicates such that each element appears only once.
+
 </details>
