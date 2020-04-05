@@ -5,9 +5,8 @@ My solutions to LeetCode problems.
 Each file has a problem statement, my solution, and a couple of tests, occasionally with my reasoning on how the 
 solution was achieved.
 
-#### 1-10
 <details>
-<summary>Click to expand</summary>
+<summary><h3>1-10</h3></summary>
 
 [1.](10/1.py)
 **Two Sum** - 
@@ -66,6 +65,9 @@ Given an input string `s` and a pattern `p`, implement regular expression matchi
 
 </details>
 
+<details>
+<summary><h3>11-20</h3></summary>
+
 [11.](20/11.py)
 **Container With Most Water** - 
 You are given `n` non-negative integers <code>a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub></code>, where each 
@@ -112,6 +114,11 @@ Given a linked list, remove the `n`<sup>th</sup> node from the end of list and r
 **Valid Parentheses** - 
 Given a string containing just the characters `(`, `)`, `{`, `}`, `[` and `]`, determine if the input string is valid.
 
+</details>
+
+<details>
+<summary><h3>21-30</h3></summary>
+
 [21.](30/21.py)
 **Merge Two Sorted Lists** - 
 Merge two sorted linked lists and return it as a new list. 
@@ -157,6 +164,11 @@ division or mod operators. Return the quotient after dividing `dividend` by `div
 You are given a string `s`, and a list of words `words` that are all of the same length. 
 Find all starting indices of substring(s) in `s` that is a concatenation of each word in `words` exactly once and 
 without any intervening characters.
+
+</details>
+
+<details>
+<summary><h3>31-40</h3></summary>
 
 [31.](40/31.py)
 **Next Permutation** - 
@@ -212,7 +224,12 @@ Given a collection of candidate numbers `candidates` and a target number `target
 find all unique combinations in `candidates` where the candidate numbers sum to `target`.
 Each number in `candidates` may only be used once in the combination.
 
-[40.](40/40.py)
+</details>
+
+<details>
+<summary><h3>41-50</h3></summary>
+
+[41.](41/41.py)
 **First Missing Positive** - 
 Given an unsorted integer array, find the smallest missing positive integer. 
 Your algorithm should run in `O(n)` time and use constant extra space.
@@ -258,6 +275,11 @@ Given an array of strings, group anagrams together.
 [50.](50/50.py)
 **pow(x, n)** - 
 Implement `pow(x, n)`, which calculates `x` raised to the power `n` (<code>x<sup>n</sup></code>).
+
+</details>
+
+<details>
+<summary><h3>51-60</h3></summary>
 
 [51.](60/51.py)
 **_n_-queens** - 
@@ -306,6 +328,11 @@ in spiral order.
 [60.](60/60.py)
 **Permutation Sequence** - 
 Given `n` and `k`, return the k<sup>th</sup> permutation of the permutations obtained from the set `[1,2,3,...,n]`.
+
+</details>
+
+<details>
+<summary><h3>61-70</h3></summary>
 
 [61.](70/61.py)
 **Rotate List** - 
@@ -356,6 +383,11 @@ Compute and return the decimally truncated square root of `x`, where `x` is guar
 You are climbing a staircase with `n` steps. Each time you can either climb 1 or 2 steps. 
 In how many distinct ways can you climb to the top?
 
+</details>
+
+<details>
+<summary><h3>71-80</h3></summary>
+
 [71.](80/71.py)
 **Simplify Path** - 
 Given an absolute path for a file (Unix-style), simplify it. Or in other words, convert it to the canonical path.
@@ -400,3 +432,5 @@ The same cell may not be used more than once.
 **Remove Duplicates from Sorted Array II** - 
 Given a sorted array `nums`, remove the duplicates in-place such that duplicates appear at most twice and return the 
 new length.
+
+</details>
