@@ -389,3 +389,8 @@ Given a set of distinct integers `nums`, return all possible subsets (the power 
 Given a 2D board and a word, find if the word exists in the grid. The word can be constructed from letters of 
 sequentially adjacent cells, where "adjacent" cells are those horizontally or vertically neighboring. 
 The same cell may not be used more than once.
+
+[80.](80/80.py)
+**Remove Duplicates from Sorted Array II** - 
+Given a sorted array `nums`, remove the duplicates in-place such that duplicates appear at most twice and return the 
+new length.
