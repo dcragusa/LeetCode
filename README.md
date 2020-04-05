@@ -6,7 +6,7 @@ Each file has a problem statement, my solution, and a couple of tests, occasiona
 solution was achieved.
 
 <details>
-<summary><span style="font-size: 2em; font-weight: bold;">1-10</span></summary>
+<summary><b style="font-size: 2em;">1-10</b></summary>
 
 [1.](10/1.py)
 **Two Sum** - 
