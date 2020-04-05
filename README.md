@@ -6,7 +6,7 @@ Each file has a problem statement, my solution, and a couple of tests, occasiona
 solution was achieved.
 
 <details>
-<summary><b style="font-size: 2em;">1-10</b></summary>
+<summary><b>1-10</b></summary>
 
 [1.](10/1.py)
 **Two Sum** - 
@@ -66,7 +66,7 @@ Given an input string `s` and a pattern `p`, implement regular expression matchi
 </details>
 
 <details>
-<summary><h3>11-20</h3></summary>
+<summary><b>11-20</b></summary>
 
 [11.](20/11.py)
 **Container With Most Water** - 
@@ -117,7 +117,7 @@ Given a string containing just the characters `(`, `)`, `{`, `}`, `[` and `]`, d
 </details>
 
 <details>
-<summary><h3>21-30</h3></summary>
+<summary><b>21-30</b></summary>
 
 [21.](30/21.py)
 **Merge Two Sorted Lists** - 
@@ -168,7 +168,7 @@ without any intervening characters.
 </details>
 
 <details>
-<summary><h3>31-40</h3></summary>
+<summary><b>31-40</b></summary>
 
 [31.](40/31.py)
 **Next Permutation** - 
@@ -227,7 +227,7 @@ Each number in `candidates` may only be used once in the combination.
 </details>
 
 <details>
-<summary><h3>41-50</h3></summary>
+<summary><b>41-50</b></summary>
 
 [41.](41/41.py)
 **First Missing Positive** - 
@@ -279,7 +279,7 @@ Implement `pow(x, n)`, which calculates `x` raised to the power `n` (<code>x<sup
 </details>
 
 <details>
-<summary><h3>51-60</h3></summary>
+<summary><b>51-60</b></summary>
 
 [51.](60/51.py)
 **_n_-queens** - 
@@ -332,7 +332,7 @@ Given `n` and `k`, return the k<sup>th</sup> permutation of the permutations obt
 </details>
 
 <details>
-<summary><h3>61-70</h3></summary>
+<summary><b>61-70</b></summary>
 
 [61.](70/61.py)
 **Rotate List** - 
@@ -386,7 +386,7 @@ In how many distinct ways can you climb to the top?
 </details>
 
 <details>
-<summary><h3>71-80</h3></summary>
+<summary><b>71-80</b></summary>
 
 [71.](80/71.py)
 **Simplify Path** - 
