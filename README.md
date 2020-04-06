@@ -453,4 +453,9 @@ original list. Return the linked list sorted as well.
 **Remove Duplicates from Sorted List** - 
 Given a sorted linked list, delete all duplicates such that each element appears only once.
 
+[84.](90/84.py)
+**Largest Rectangle in Histogram** - 
+Given `n` non-negative integers representing the histogram's bar height where the width of each bar is 1, find the 
+area of the largest rectangle in the histogram.
+
 </details>
