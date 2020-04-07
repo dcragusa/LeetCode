@@ -462,4 +462,9 @@ area of the largest rectangle in the histogram.
 **Maximal Rectangle** - 
 Given a 2D matrix filled with `0`s and `1`s, find the largest rectangle containing only `1`s and return its area.
 
+[86.](90/86.py)
+**Partition List** - 
+Given a linked list and a value `x`, partition it such that all nodes less than `x` come before nodes greater than or 
+equal to `x`. You should preserve the original relative order of the nodes in each of the two partitions.
+
 </details>
