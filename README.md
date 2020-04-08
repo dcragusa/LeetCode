@@ -473,4 +473,8 @@ Given a string `s1`, we may represent it as a binary tree by partitioning it int
 To scramble the string, we may choose any non-leaf node and swap its two children, repeating this process. 
 Given two strings `s1` and `s2` of the same length, determine if `s2` is a scrambled string of `s1`.
 
+[88.](90/88.py)
+**Merge Sorted Array** - 
+Given two sorted integer arrays `nums1` and `nums2`, merge `nums2` into `nums1` as one sorted array.
+
 </details>
