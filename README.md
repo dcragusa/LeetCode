@@ -467,4 +467,10 @@ Given a 2D matrix filled with `0`s and `1`s, find the largest rectangle containi
 Given a linked list and a value `x`, partition it such that all nodes less than `x` come before nodes greater than or 
 equal to `x`. You should preserve the original relative order of the nodes in each of the two partitions.
 
+[87.](90/87.py)
+**Scramble String** - 
+Given a string `s1`, we may represent it as a binary tree by partitioning it into two non-empty substrings recursively.
+To scramble the string, we may choose any non-leaf node and swap its two children, repeating this process. 
+Given two strings `s1` and `s2` of the same length, determine if `s2` is a scrambled string of `s1`.
+
 </details>
