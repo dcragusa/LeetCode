@@ -482,4 +482,9 @@ Given two sorted integer arrays `nums1` and `nums2`, merge `nums2` into `nums1` 
 The Gray code is a binary numeral system where two successive values differ in only one bit. Given a non-negative 
 integer `n` representing the total number of bits in the code, print a Gray code sequence.
 
+[90.](90/90.py)
+**Subsets II** - 
+Given a collection of integers that might contain duplicates, `nums`, return all possible subsets (the power set).
+Note: The solution set must not contain duplicate subsets.
+
 </details>
