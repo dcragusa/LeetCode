@@ -477,4 +477,9 @@ Given two strings `s1` and `s2` of the same length, determine if `s2` is a scram
 **Merge Sorted Array** - 
 Given two sorted integer arrays `nums1` and `nums2`, merge `nums2` into `nums1` as one sorted array.
 
+[89.](90/89.py)
+**Gray Code** - 
+The Gray code is a binary numeral system where two successive values differ in only one bit. Given a non-negative 
+integer `n` representing the total number of bits in the code, print a Gray code sequence.
+
 </details>
