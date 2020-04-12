@@ -499,10 +499,14 @@ Given a non-empty string containing only digits, determine the total number of w
 
 [92.](100/92.py)
 **Reverse Linked List II** - 
-Reverse a linked list from position `m` to `n`. Do it in one-pass.
+Reverse a linked list from position `m` to `n`. Do it in one pass.
 
 [93.](100/93.py)
 **Restore IP Addresses** - 
 Given a string containing only digits, return all possible valid IP address combinations.
+
+[94.](100/94.py)
+**Binary Tree Inorder Traversal** - 
+Given a binary tree, return the inorder traversal of its nodes' values.
 
 </details>
