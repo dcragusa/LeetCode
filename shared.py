@@ -25,3 +25,19 @@ def linked_list_to_python_list(head):
         python_list.append(head.val)
         head = head.next
     return python_list
+
+
+class TreeNode:
+    def __init__(self, val, left=None, right=None):
+        self.val, self.left, self.right = val, left, right
+
+    def __repr__(self):
+        return repr(self.val)
+
+    def pprint(self, level=0):
+        # rotate the output 90* clockwise :)
+        if self.right:
+            self.right.pprint(level+1)
+        print('%s%s' % ('\t'*level, self.val))
+        if self.left:
+            self.left.pprint(level+1)
