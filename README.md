@@ -513,4 +513,8 @@ Given a binary tree, return the inorder traversal of its nodes' values.
 **Unique Binary Search Trees II** - 
 Given an integer `n`, generate all structurally unique BST's (binary search trees) that store values `1 ... n`.
 
+[96.](100/96.py)
+**Unique Binary Search Trees** - 
+Given an integer `n`, how many structurally unique BST's (binary search trees) can store values `1 ... n`?
+
 </details>
