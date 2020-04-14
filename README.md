@@ -509,4 +509,8 @@ Given a string containing only digits, return all possible valid IP address comb
 **Binary Tree Inorder Traversal** - 
 Given a binary tree, return the inorder traversal of its nodes' values.
 
+[95.](100/95.py)
+**Unique Binary Search Trees II** - 
+Given an integer `n`, generate all structurally unique BST's (binary search trees) that store values `1 ... n`.
+
 </details>
