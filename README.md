@@ -521,4 +521,8 @@ Given an integer `n`, how many structurally unique BST's (binary search trees) c
 **Interleaving String** - 
 Given strings `s1`, `s2`, `s3`, find whether `s3` can be formed by the interleaving of `s1` and `s2`.
 
+[98.](100/98.py)
+**Validate Binary Search Tree** - 
+Given a binary tree, determine if it is a valid binary search tree (BST).
+
 </details>
