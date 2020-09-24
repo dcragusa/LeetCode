@@ -525,4 +525,8 @@ Given strings `s1`, `s2`, `s3`, find whether `s3` can be formed by the interleav
 **Validate Binary Search Tree** - 
 Given a binary tree, determine if it is a valid binary search tree (BST).
 
+[99.](100/99.py)
+**Recover Binary Search Tree** - 
+Two elements of a binary search tree (BST) are swapped by mistake. Recover the tree without changing its structure.
+
 </details>

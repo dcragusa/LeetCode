@@ -41,3 +41,6 @@ class TreeNode:
         print('%s%s' % ('\t'*level, self.val))
         if self.left:
             self.left.pprint(level+1)
+
+    def __eq__(self, other):
+        return (self.val, self.left, self.right) == (other.val, other.left, other.right)
