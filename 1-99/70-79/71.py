@@ -48,8 +48,8 @@ def simplify_path(path):
 
 
 assert simplify_path('/home/') == '/home'
-assert simplify_path('/../') == '/'
-assert simplify_path('/.') == '/'
+assert simplify_path('../../') == '/'
+assert simplify_path('') == '/'
 assert simplify_path('/a/./.') == '/a'
 assert simplify_path('/home//foo/') == '/home/foo'
 assert simplify_path('/a/./b/../../c/') == '/c'
