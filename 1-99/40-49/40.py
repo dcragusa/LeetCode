@@ -17,10 +17,10 @@ A solution set is: [[1,2,2], [5]]
 """
 
 """
-Similar to probelm 39, we go through the set of candidates one at a time, subtracting the number from the target.
+Similar to problem 39, we go through the set of candidates one at a time, subtracting the number from the target.
 If there is no remainder, that is a combination. We then recur with all higher candidates. This ensures we check 
 every possible combination. We can skip duplicate numbers, as we have already checked all combinations with those 
-on previous iterations. 
+on previous iterations.
 """
 
 
