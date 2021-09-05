@@ -553,4 +553,9 @@ Given the root of a binary tree, return the level order traversal of its nodes' 
 Given the root of a binary tree, return the zigzag level order traversal of its nodes' values. 
 (i.e., from left to right, then right to left for the next level and alternate between).
 
+[104.](100-199/100-109/104.py)
+**Maximum Depth of Binary Tree** -
+Given the root of a binary tree, return its maximum depth. A binary tree's maximum depth is the number of nodes 
+along the longest path from the root node down to the farthest leaf node.
+
 </details>
