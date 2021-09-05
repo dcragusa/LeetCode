@@ -539,4 +539,8 @@ Two elements of a binary search tree (BST) are swapped by mistake. Recover the t
 Given the roots of two binary trees `p` and `q`, write a function to check if they are the same or not.
 Two binary trees are considered the same if they are structurally identical, and the nodes have the same value.
 
+[101.](100-199/100-109/101.py)
+**Symmetric Tree** -
+Given the root of a binary tree, check whether it is a mirror of itself (i.e., symmetric around its center).
+
 </details>
