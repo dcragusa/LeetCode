@@ -530,3 +530,13 @@ Given a binary tree, determine if it is a valid binary search tree (BST).
 Two elements of a binary search tree (BST) are swapped by mistake. Recover the tree without changing its structure.
 
 </details>
+
+<details>
+<summary><b>100-109</b></summary>
+
+[100.](100-199/100-109/100.py)
+**Same Tree** -
+Given the roots of two binary trees `p` and `q`, write a function to check if they are the same or not.
+Two binary trees are considered the same if they are structurally identical, and the nodes have the same value.
+
+</details>
