@@ -18,6 +18,10 @@ Example 3:
 Input: root = [],  Output: []
 """
 
+"""
+We do an in-order traversal of the tree, saving the level as we go. Then we merely read off the levels at the end.
+"""
+
 from shared import TreeNode
 from collections import defaultdict
 
