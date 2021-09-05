@@ -44,7 +44,7 @@ Input: s1 = "abcde", s2 = "caebd",  Output: false
 
 """
 At the basest level, two strings are a scramble if they are equal or reversed. Otherwise, we start splitting up the
-strings at the verious possible points. We compare character counts for the 4 possible combinations we would obtain
+strings at the various possible points. We compare character counts for the 4 possible combinations we would obtain
 from splitting the string into two nodes at that point: s1_start-s2_start, s1_start-s2_end, s1_end-s2_start, and 
 s1_end-s2_end. If the character counts are equal, there is a possible split and we recur down, checking if each half
 is a valid scramble on its own. We keep a cache to avoid recalculating if parts of a string are scrambled.

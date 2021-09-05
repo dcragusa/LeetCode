@@ -31,7 +31,7 @@ For the iterative approach, we create a (s1+1 by s2+1) matrix showing the cost o
 and column are set to the indices of s2 and s1 respectively (it would take 3 steps to get to the 3rd letter of s2 if
 s1 is an empty string, and vice versa). Then we go through the matrix left to right downwards, setting each value - 
 which is the minimum of: the value above (i-1) + 1, representing deleting a character; the value to the left (j-1) + 1,
-representing adding a character; and the value to the top right (i-1, j-1), representing swapping the characters. 1 is
+representing adding a character; and the value to the top left (i-1, j-1), representing swapping the characters. 1 is
 added to this if the characters are different and 0 if they are equal. The solution is the value at the bottom right,
 which is the total cost of getting from s1 to s2.
 """

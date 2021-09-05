@@ -1,8 +1,5 @@
 """
-76. Minimum Window Substring
-Hard
-
-Given strings S and T, find the minimum window in S which containw all the characters in T in complexity O(n).
+Given strings S and T, find the minimum window in S which contains all the characters in T in complexity O(n).
 
 Example:
 Input: S = "ADOBECODEBANC", T = "ABC",  Output: "BANC"

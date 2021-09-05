@@ -1,6 +1,6 @@
 """
 Given an array words and a width max_width, format the text such that each line has exactly max_width characters
-and is fully (left and right) justified. You should pack pack as many words as you can in each line.
+and is fully (left and right) justified. You should pack as many words as you can in each line.
 Pad extra spaces ' ' when necessary so that each line has exactly maxWidth characters.
 
 Extra spaces between words should be distributed as evenly as possible.
