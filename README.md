@@ -604,4 +604,9 @@ from the root node down to the nearest leaf node.
 Given the root of a binary tree and an integer `target_sum`, return `True` if the tree has a root-to-leaf path 
 such that adding up all the values along the path equals `target_sum`. A leaf is a node with no children.
 
+[113.](100-199/110-119/113.py)
+**Path Sum II** -
+Given the root of a binary tree and an integer `target_sum`, return all root-to-leaf paths where the sum of the 
+node values in the path equals `target_sum`. Each path should be returned as a list of the node values.
+
 </details>
