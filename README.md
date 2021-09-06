@@ -563,4 +563,9 @@ along the longest path from the root node down to the farthest leaf node.
 Given two integer arrays `preorder` and `inorder` where `preorder` is the preorder traversal of a binary tree 
 and `inorder` is the inorder traversal of the same tree, construct and return the binary tree.
 
+[106.](100-199/100-109/106.py)
+**Construct Binary Tree from Inorder and Postorder Traversal** -
+Given two integer arrays `inorder` and `postorder` where `inorder` is the inorder traversal of a binary tree 
+and `postorder` is the postorder traversal of the same tree, construct and return the binary tree.
+
 </details>
