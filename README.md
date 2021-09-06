@@ -558,4 +558,9 @@ Given the root of a binary tree, return the zigzag level order traversal of its 
 Given the root of a binary tree, return its maximum depth. A binary tree's maximum depth is the number of nodes 
 along the longest path from the root node down to the farthest leaf node.
 
+[105.](100-199/100-109/105.py)
+**Construct Binary Tree from Preorder and Inorder Traversal** -
+Given two integer arrays `preorder` and `inorder` where `preorder` is the preorder traversal of a binary tree 
+and `inorder` is the inorder traversal of the same tree, construct and return the binary tree.
+
 </details>
