@@ -599,4 +599,9 @@ in which the left and right subtrees of every node differ in height by no more t
 Given a binary tree, find its minimum depth. The minimum depth is the number of nodes along the shortest path 
 from the root node down to the nearest leaf node.
 
+[112.](100-199/110-119/112.py)
+**Path Sum** -
+Given the root of a binary tree and an integer `target_sum`, return `True` if the tree has a root-to-leaf path 
+such that adding up all the values along the path equals `target_sum`. A leaf is a node with no children.
+
 </details>
