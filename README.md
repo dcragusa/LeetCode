@@ -594,4 +594,9 @@ binary search tree.
 Given a binary tree, determine if it is height-balanced. A height-balanced binary tree is defined as a binary tree 
 in which the left and right subtrees of every node differ in height by no more than 1.
 
+[111.](100-199/110-119/111.py)
+**Minimum Depth of Binary Tree** -
+Given a binary tree, find its minimum depth. The minimum depth is the number of nodes along the shortest path 
+from the root node down to the nearest leaf node.
+
 </details>
