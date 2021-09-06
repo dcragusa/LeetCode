@@ -573,4 +573,10 @@ and `postorder` is the postorder traversal of the same tree, construct and retur
 Given the root of a binary tree, return the bottom-up level order traversal of its nodes' values. 
 (i.e., from left to right, level by level from leaf to root).
 
+[108.](100-199/100-109/108.py)
+**Convert Sorted Array to Binary Search Tree** -
+Given an integer array `nums` where the elements are sorted in ascending order, convert it to a height-balanced 
+binary search tree. A height-balanced binary tree is a binary tree in which the depth of the two subtrees of every 
+node never differs by more than one.
+
 </details>
