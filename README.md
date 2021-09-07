@@ -609,4 +609,8 @@ such that adding up all the values along the path equals `target_sum`. A leaf is
 Given the root of a binary tree and an integer `target_sum`, return all root-to-leaf paths where the sum of the 
 node values in the path equals `target_sum`. Each path should be returned as a list of the node values.
 
+[114.](100-199/110-119/114.py)
+**Flatten Binary Tree to Linked List** -
+Given the root of a binary tree, flatten the tree into a "linked list".
+
 </details>
