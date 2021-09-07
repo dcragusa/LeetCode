@@ -4,7 +4,7 @@ binary search tree. A height-balanced binary tree is a binary tree in which the 
 every node never differs by more than one.
 
 Example 1:
-Input: nums = [-10, -3, 0, 5, 9],  Output: [0, -3, 9, -10, null, 5]  (or [0, -10, 5, null, -3, null, 9])
+Input: nums = [-10, -3, 0, 5, 9],  Output: [0, -3, 9, -10, None, 5]  (or [0, -10, 5, None, -3, None, 9])
 
         0               0
        / \             / \
@@ -25,12 +25,10 @@ The array is presorted, so to create a balanced tree we merely have to split the
 when creating the left and right sides recursively.
 """
 
-
-from shared import TreeNode
+from shared import TreeNode, list_to_tree
 
 
 def sorted_array_to_bst(nums):
-
     def helper(low, high):
         if low == high:
             return
@@ -40,8 +38,5 @@ def sorted_array_to_bst(nums):
     return helper(0, len(nums))
 
 
-tree = TreeNode(0, TreeNode(-3, TreeNode(-10)), TreeNode(9, TreeNode(5)))
-assert sorted_array_to_bst([-10, -3, 0, 5, 9]) == tree
-
-tree = TreeNode(3, TreeNode(1))
-assert sorted_array_to_bst([1, 3]) == tree
+assert sorted_array_to_bst([-10, -3, 0, 5, 9]) == list_to_tree([0, -3, 9, -10, None, 5])
+assert sorted_array_to_bst([1, 3]) == list_to_tree([3, 1])

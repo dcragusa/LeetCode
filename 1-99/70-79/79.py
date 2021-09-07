@@ -4,9 +4,9 @@ sequentially adjacent cell, where "adjacent" cells are those horizontally or ver
 The same letter cell may not be used more than once.
 
 Example:
-board = [['A','B','C','E'],
-         ['S','F','C','S'],
-         ['A','D','E','E']]
+board = [['A', 'B', 'C', 'E'],
+         ['S', 'F', 'C', 'S'],
+         ['A', 'D', 'E', 'E']]
 Given word = "ABCCED", return true.
 Given word = "SEE", return true.
 Given word = "ABCB", return false.

@@ -5,7 +5,7 @@ Given the root of a binary tree, flatten the tree into a "linked list":
 - The "linked list" should be in the same order as a pre-order traversal of the binary tree.
 
 Example 1:
-Input: root = [1, 2, 5, 3, 4, null, 6],  Output: [1, null, 2, null, 3, null, 4, null, 5, null, 6]
+Input: root = [1, 2, 5, 3, 4, None, 6],  Output: [1, None, 2, None, 3, None, 4, None, 5, None, 6]
 
                  1
                   \
@@ -26,11 +26,10 @@ Example 3:
 Input: root = [0],  Output: [0]
 """
 
-from shared import TreeNode
+from shared import list_to_tree, TreeNode
 
 
 def flatten(root):
-
     def find_last_left(node):
         while node and node.left:
             node = node.left
@@ -55,19 +54,18 @@ def flatten(root):
         node = node.right
 
 
-root = TreeNode(1, TreeNode(2, TreeNode(3), TreeNode(4)), TreeNode(5, None, TreeNode(6)))
-flatten(root)
-assert root == TreeNode(1, None, TreeNode(2, None, TreeNode(3, None, TreeNode(4, None, TreeNode(5, None, TreeNode(6))))))
+tree = list_to_tree([1, 2, 5, 3, 4, None, 6])
+flatten(tree)
+assert tree == list_to_tree([1, None, 2, None, 3, None, 4, None, 5, None, 6])
 
-root = TreeNode(1, TreeNode(2, TreeNode(3), TreeNode(4, TreeNode(5), TreeNode(6))), TreeNode(7, None, TreeNode(8)))
-flatten(root)
-assert root == TreeNode(1, None, TreeNode(2, None, TreeNode(3, None, TreeNode(4, None, TreeNode(5, None, TreeNode(6, None, TreeNode(7, None, TreeNode(8))))))))
+tree = list_to_tree([1, 2, 7, 3, 4, None, 8, None, None, 5, 6])
+flatten(tree)
+assert tree == list_to_tree([1, None, 2, None, 3, None, 4, None, 5, None, 6, None, 7, None, 8])
 
-root = None
-flatten(root)
-assert root is None
+tree = list_to_tree([])
+flatten(tree)
+assert tree == list_to_tree([])
 
-root = TreeNode(0)
-flatten(root)
-assert root == TreeNode(0)
-
+tree = list_to_tree([0])
+flatten(tree)
+assert tree == list_to_tree([0])

@@ -3,15 +3,15 @@ Given an m x n matrix, if an element is 0, set its entire row and column to 0. D
 
 Example 1:
 Input:        Output:
-[[1,1,1],    [[1,0,1],
- [1,0,1],     [0,0,0],
- [1,1,1]]     [1,0,1]]
+[[1, 1, 1],    [[1, 0, 1],
+ [1, 0, 1],     [0, 0, 0],
+ [1, 1, 1]]     [1, 0, 1]]
 
 Example 2:
 Input:         Output:
-[[0,1,2,0],   [[0,0,0,0],
- [3,4,5,2],    [0,4,5,0],
- [1,3,1,5]]    [0,3,1,0]]
+[[0, 1, 2, 0],   [[0, 0, 0, 0],
+ [3, 4, 5, 2],    [0, 4, 5, 0],
+ [1, 3, 1, 5]]    [0, 3, 1, 0]]
 
 Follow up:
 A straight forward solution using O(mn) space is probably a bad idea.

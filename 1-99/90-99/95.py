@@ -4,11 +4,11 @@ Given an integer n, generate all structurally unique BST's (binary search trees)
 Example:
 
 Input: 3
-Output: [[1,null,3,2],
-         [3,2,null,1],
-         [3,1,null,null,2],
-         [2,1,3],
-         [1,null,2,null,3]]
+Output: [[1, None, 3, 2],
+         [3, 2, None, 1],
+         [3, 1, None, None, 2],
+         [2, 1, 3],
+         [1, None, 2, None, 3]]
 Explanation:
 The above output corresponds to the 5 unique BST's shown below:
    1         3     3      2      1

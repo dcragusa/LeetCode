@@ -5,7 +5,7 @@ buttons) that the number could represent.
 2: ABC, 3: DEF, 4: GHI, 5: JKL, 6: MNO, 7: PQRS, 8: TUV, 9: WXYZ
 
 Example:
-Input: "23", Output: ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"].
+Input: "23",  Output: ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"].
 
 Note:
 Although the above answer is in lexicographical order, your answer could be in any order you want.

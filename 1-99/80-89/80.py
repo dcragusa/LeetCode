@@ -4,11 +4,11 @@ new length. Do not allocate extra space for another array, you must do this by m
 with O(1) extra memory. The order of elements can be changed. It doesn't matter what you leave beyond the new length.
 
 Example 1:
-Given nums = [1,1,1,2,2,3],  Your function should return length = 5,
+Given nums = [1, 1, 1, 2, 2, 3],  Your function should return length = 5,
 with the first five elements of nums being 1, 1, 2, 2 and 3 respectively.
 
 Example 2:
-Given nums = [0,0,1,1,1,1,2,3,3],  Your function should return length = 7,
+Given nums = [0, 0, 1, 1, 1, 1, 2, 3, 3],  Your function should return length = 7,
 with the first seven elements of nums being modified to 0, 0, 1, 1, 2, 3 and 3 respectively.
 
 Clarification:

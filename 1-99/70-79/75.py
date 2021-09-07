@@ -4,7 +4,7 @@ that objects of the same color are adjacent, with the colors in the order red, w
 Note: You are not suppose to use the library's sort function for this problem.
 
 Example:
-Input: [2,0,2,1,1,0],  Output: [0,0,1,1,2,2]
+Input: [2, 0, 2, 1, 1, 0],  Output: [0, 0, 1, 1, 2, 2]
 
 Follow up:
 A rather straight forward solution is a two-pass algorithm using counting sort.

@@ -3,21 +3,21 @@ Given the roots of two binary trees p and q, write a function to check if they a
 Two binary trees are considered the same if they are structurally identical, and the nodes have the same value.
 
 Example 1:
-Input: p = [1,2,3], q = [1,2,3],  Output: true
+Input: p = [1, 2, 3], q = [1, 2, 3],  Output: true
 
      1           1
     / \         / \
    2  3   ->   2   3
 
 Example 2:
-Input: p = [1,2], q = [1,null,2],  Output: false
+Input: p = [1, 2], q = [1, None, 2],  Output: false
 
      1     1
     /       \
    2   ->    2
 
 Example 3:
-Input: p = [1,2,1], q = [1,1,2],  Output: false
+Input: p = [1, 2, 1], q = [1, 1, 2],  Output: false
 
      1           1
     / \         / \
@@ -28,7 +28,7 @@ Input: p = [1,2,1], q = [1,1,2],  Output: false
 We do an inorder traversal of both trees, checking if nodes are equal. There is some special casing for None values.
 """
 
-from shared import TreeNode
+from shared import list_to_tree
 
 
 def is_same_tree(p, q):
@@ -40,14 +40,6 @@ def is_same_tree(p, q):
         return False
 
 
-p = TreeNode(1, TreeNode(2), TreeNode(3))
-q = TreeNode(1, TreeNode(2), TreeNode(3))
-assert is_same_tree(p, q) is True
-
-p = TreeNode(1, TreeNode(2), None)
-q = TreeNode(1, None, TreeNode(2))
-assert is_same_tree(p, q) is False
-
-p = TreeNode(1, TreeNode(2), TreeNode(1))
-q = TreeNode(1, TreeNode(1), TreeNode(2))
-assert is_same_tree(p, q) is False
+assert is_same_tree(list_to_tree([1, 2, 3]), list_to_tree([1, 2, 3])) is True
+assert is_same_tree(list_to_tree([1, 2]), list_to_tree([1, None, 2])) is False
+assert is_same_tree(list_to_tree([1, 2, 1]), list_to_tree([1, 1, 2])) is False

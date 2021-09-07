@@ -6,9 +6,9 @@ For example, given n = 3, a solution set is:
 """
 
 """
-We start with one pair of parentheses, which can only be (). For each additional pair, we add an open bracket to the 
-front [(()], then iterate across the solutions inserting a close bracket after every available open bracket [()(),(())].
-Via recursion we can apply this method to any number of parentheses.
+We start with one pair of parentheses, which can only be (). For each additional pair, we add an open bracket 
+to the front [(()], then iterate across the solutions inserting a close bracket after every available open 
+bracket [()(), (())]. Via recursion we can apply this method to any number of parentheses.
 """
 
 

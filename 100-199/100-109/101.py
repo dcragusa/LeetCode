@@ -3,7 +3,7 @@ Given the root of a binary tree, check whether it is a mirror of itself (i.e., s
 
 Example 1:
 
-Input: root = [1,2,2,3,4,4,3]
+Input: root = [1, 2, 2, 3, 4, 4, 3]
 Output: true
 
         1
@@ -13,7 +13,7 @@ Output: true
   3  4   4   3
 
 Example 2:
-Input: root = [1,2,2,null,3,null,3]
+Input: root = [1, 2, 2, None, 3, None, 3]
 Output: false
 
     1
@@ -28,11 +28,10 @@ We recursively check whether opposite ends of the tree are equal, going down the
 The logic is very similar to problem 100.
 """
 
-from shared import TreeNode
+from shared import list_to_tree
 
 
 def is_symmetric(root):
-
     def helper(left, right):
         if left is None and right is None:
             return True
@@ -44,14 +43,7 @@ def is_symmetric(root):
     return helper(root.left, root.right)
 
 
-root = TreeNode(1, TreeNode(2, TreeNode(3), TreeNode(4)), TreeNode(2, TreeNode(4), TreeNode(3)))
-assert is_symmetric(root) is True
-
-root = TreeNode(1, TreeNode(2, None, TreeNode(3)), TreeNode(2, None, TreeNode(3)))
-assert is_symmetric(root) is False
-
-root = TreeNode(1, TreeNode(2, TreeNode(2), None), TreeNode(2, TreeNode(2), None))
-assert is_symmetric(root) is False
-
-root = TreeNode(1, TreeNode(2, TreeNode(3)))
-assert is_symmetric(root) is False
+assert is_symmetric(list_to_tree([1, 2, 2, 3, 4, 4, 3])) is True
+assert is_symmetric(list_to_tree([1, 2, 2, None, 3, None, 3])) is False
+assert is_symmetric(list_to_tree([1, 2, 2, None, 2, None])) is False
+assert is_symmetric(list_to_tree([1, 2, 3])) is False

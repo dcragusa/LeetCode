@@ -3,7 +3,7 @@ Given the root of a binary tree and an integer `target_sum`, return `True` if th
 such that adding up all the values along the path equals `target_sum`. A leaf is a node with no children.
 
 Example 1:
-Input: root = [5, 4, 8, 11, null, 13, 4, 7, 2, null, null, null, 1], target_sum = 22
+Input: root = [5, 4, 8, 11, None, 13, 4, 7, 2, None, None, 5, 1], target_sum = 22
 Output: [[5, 4, 11, 2], [5, 8, 4, 5]]
 
          5
@@ -34,11 +34,10 @@ Similar to 112, except we keep track of the path as we recur down the tree, and 
 when we find a matching leaf node.
 """
 
-from shared import TreeNode
+from shared import TreeNode, list_to_tree
 
 
 def path_sum(root, target_sum):
-
     results = []
 
     def helper(node, path, target_sum):
@@ -55,15 +54,6 @@ def path_sum(root, target_sum):
     return results
 
 
-root = TreeNode(
-    5,
-    TreeNode(4, TreeNode(11, TreeNode(7), TreeNode(2))),
-    TreeNode(8, TreeNode(13), TreeNode(4, TreeNode(5), TreeNode(1)))
-)
-assert path_sum(root, 22) == [[5, 4, 11, 2], [5, 8, 4, 5]]
-
-root = TreeNode(1, TreeNode(2), TreeNode(3))
-assert path_sum(root, 5) == []
-
-root = TreeNode(1, TreeNode(2))
-assert path_sum(root, 0) == []
+assert path_sum(list_to_tree([5, 4, 8, 11, None, 13, 4, 7, 2, None, None, 5, 1]), 22) == [[5, 4, 11, 2], [5, 8, 4, 5]]
+assert path_sum(list_to_tree([1, 2, 3]), 5) == []
+assert path_sum(list_to_tree([1, 2]), 0) == []

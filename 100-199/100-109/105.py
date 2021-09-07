@@ -3,7 +3,7 @@ Given two integer arrays preorder and inorder where preorder is the preorder tra
 inorder is the inorder traversal of the same tree, construct and return the binary tree.
 
 Example 1:
-Input: preorder = [3, 9, 20, 15, 7], inorder = [9, 3, 15, 20, 7],  Output: [3, 9, 20, null, null, 15, 7]
+Input: preorder = [3, 9, 20, 15, 7], inorder = [9, 3, 15, 20, 7],  Output: [3, 9, 20, None, None, 15, 7]
 
      3
    /  \
@@ -30,12 +30,10 @@ inorder list is empty that means that no more nodes are to be assigned, so we re
 slices of the inorder list by passing indices to search in (the list.index() method is very helpful for this).
 """
 
-
-from shared import TreeNode
+from shared import TreeNode, list_to_tree
 
 
 def build_tree(preorder, inorder):
-
     preorder_idx = 0
 
     def helper(low, high):
@@ -53,11 +51,6 @@ def build_tree(preorder, inorder):
     return helper(0, len(inorder))
 
 
-tree = TreeNode(3, TreeNode(9), TreeNode(20, TreeNode(15), TreeNode(7)))
-assert build_tree([3, 9, 20, 15, 7], [9, 3, 15, 20, 7]) == tree
-
-tree = TreeNode(-1)
-assert build_tree([-1], [-1]) == tree
-
-tree = TreeNode(1, TreeNode(2), TreeNode(3))
-assert build_tree([1, 2, 3], [2, 1, 3]) == tree
+assert build_tree([3, 9, 20, 15, 7], [9, 3, 15, 20, 7]) == list_to_tree([3, 9, 20, None, None, 15, 7])
+assert build_tree([-1], [-1]) == list_to_tree([-1])
+assert build_tree([1, 2, 3], [2, 1, 3]) == list_to_tree([1, 2, 3])

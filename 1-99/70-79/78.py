@@ -3,7 +3,7 @@ Given a set of distinct integers, nums, return all possible subsets (the power s
 Note: The solution set must not contain duplicate subsets.
 
 Example:
-Input: nums = [1,2,3],  Output: [[], [1], [2], [3], [1, 2], [1, 3], [2, 3], [1, 2, 3]]
+Input: nums = [1, 2, 3],  Output: [[], [1], [2], [3], [1, 2], [1, 3], [2, 3], [1, 2, 3]]
 """
 
 """

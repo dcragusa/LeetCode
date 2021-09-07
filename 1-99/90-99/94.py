@@ -2,14 +2,14 @@
 Given a binary tree, return the inorder traversal of its nodes' values.
 
 Example:
-Input: [1,null,2,3]
+Input: [1, None, 2, 3]
    1
     \
      2
     /
    3
 
-Output: [1,3,2]
+Output: [1, 3, 2]
 
 Follow up: The recursive solution is trivial, could you do it iteratively?
 """
@@ -24,8 +24,7 @@ we have reached the end of the tree and result the list of node values. Some err
 the current node has already been added to the results on direction change or tree exhaustion.
 """
 
-
-from shared import TreeNode
+from shared import list_to_tree
 
 
 def inorder_traversal_recursive(root):
@@ -70,7 +69,7 @@ def inorder_traversal_iterative(root):
 
 
 # example
-tree = TreeNode(1, None, TreeNode(2, TreeNode(3), None))
+tree = list_to_tree([1, None, 2, 3])
 assert inorder_traversal_recursive(tree) == inorder_traversal_iterative(tree) == [1, 3, 2]
 
 #      1
@@ -78,5 +77,5 @@ assert inorder_traversal_recursive(tree) == inorder_traversal_iterative(tree) ==
 #   2     5
 #  / \   / \
 # 3   4 6   7
-tree = TreeNode(1, TreeNode(2, TreeNode(3), TreeNode(4)), TreeNode(5, TreeNode(6), TreeNode(7)))
+tree = list_to_tree([1, 2, 5, 3, 4, 6, 7])
 assert inorder_traversal_recursive(tree) == inorder_traversal_iterative(tree) == [3, 2, 4, 1, 6, 5, 7]

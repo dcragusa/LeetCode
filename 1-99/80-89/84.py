@@ -10,7 +10,7 @@ of the largest rectangle in the histogram.
 - - # # - -
 
 Example (as above):
-Input: [2,1,5,6,2,3],  Output: 10
+Input: [2, 1, 5, 6, 2, 3],  Output: 10
 """
 
 """

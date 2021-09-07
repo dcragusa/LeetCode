@@ -3,7 +3,7 @@ Given a binary tree, determine if it is height-balanced. A height-balanced binar
 in which the left and right subtrees of every node differ in height by no more than 1.
 
 Example 1:
-Input: root = [3, 9, 20, null, null, 15, 7],  Output: true
+Input: root = [3, 9, 20, None, None, 15, 7],  Output: true
 
     3
    / \
@@ -12,7 +12,7 @@ Input: root = [3, 9, 20, null, null, 15, 7],  Output: true
    15   7
 
 Example 2:
-Input: root = [1, 2, 2, 3, 3, null, null, 4, 4],  Output: false
+Input: root = [1, 2, 2, 3, 3, None, None, 4, 4],  Output: false
 
         1
        / \
@@ -31,11 +31,10 @@ We recurse down the tree, passing up the maximum depth of the nodes. We check if
 differ by more than one at each step, passing any failures upwards.
 """
 
-from shared import TreeNode
+from shared import list_to_tree
 
 
 def is_balanced(root):
-
     def helper(node):
         if node is None:
             return True, 0
@@ -48,11 +47,6 @@ def is_balanced(root):
     return helper(root)[0]
 
 
-root = TreeNode(3, TreeNode(9), TreeNode(20, TreeNode(15), TreeNode(7)))
-assert is_balanced(root) is True
-
-root = TreeNode(1, TreeNode(2, TreeNode(3, TreeNode(4), TreeNode(4)), TreeNode(3)), TreeNode(2))
-assert is_balanced(root) is False
-
-root = None
-assert is_balanced(root) is True
+assert is_balanced(list_to_tree([3, 9, 20, None, None, 15, 7])) is True
+assert is_balanced(list_to_tree([1, 2, 2, 3, 3, None, None, 4, 4])) is False
+assert is_balanced(list_to_tree([])) is True

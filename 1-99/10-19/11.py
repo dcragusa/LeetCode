@@ -7,7 +7,7 @@ Note: You may not slant the container and n is at least 2.
 
 Example:
 Input:
-heights = [1, 8, 6, 2, 5, 4, 8, 3, 7], Output: 49
+heights = [1, 8, 6, 2, 5, 4, 8, 3, 7],  Output: 49
 Explanation:
 h[1] = 8, h[8] = 7, area is min(8, 7) * (8-1) = 7*7 = 49
 """

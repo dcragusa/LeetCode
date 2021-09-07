@@ -2,7 +2,7 @@
 Two elements of a binary search tree (BST) are swapped by mistake. Recover the tree without changing its structure.
 
 Example 1:
-Input: [1,3,null,null,2],  Output: [3,1,null,null,2]
+Input: [1, 3, None, None, 2],  Output: [3, 1, None, None, 2]
 
     1        3
    /        /
@@ -11,7 +11,7 @@ Input: [1,3,null,null,2],  Output: [3,1,null,null,2]
     2        2
 
 Example 2:
-Input: [3,1,4,null,null,2],  Output: [2,1,4,null,null,3]
+Input: [3, 1, 4, None, None, 2],  Output: [2, 1, 4, None, None, 3]
 
      3             2
     / \           / \
@@ -27,11 +27,10 @@ then we must only swap these two values. If they are not, there will be two pair
 of the first pair, and second node of the second pair.
 """
 
-from shared import TreeNode
+from shared import list_to_tree
 
 
 def recover_tree(root):
-
     first, second, predecessor = None, None, None
 
     def depth_first_search(node):
@@ -53,11 +52,10 @@ def recover_tree(root):
     first.val, second.val = second.val, first.val
 
 
-
-root = TreeNode(1, TreeNode(3, None, TreeNode(2)))
+root = list_to_tree([1, 3, None, None, 2])
 recover_tree(root)
-assert root == TreeNode(3, TreeNode(1, None, TreeNode(2)))
+assert root == list_to_tree([3, 1, None, None, 2])
 
-root = TreeNode(3, TreeNode(1), TreeNode(4, TreeNode(2)))
+root = list_to_tree([3, 1, 4, None, None, 2])
 recover_tree(root)
-assert root == TreeNode(2, TreeNode(1), TreeNode(4, TreeNode(3)))
+assert root == list_to_tree([2, 1, 4, None, None, 3])

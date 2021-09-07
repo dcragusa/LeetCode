@@ -22,7 +22,7 @@ Output: ['This    is    an',
 
 Example 2:
 Input:
-words = ['What','must','be','acknowledgment','shall','be'], maxWidth = 16
+words = ['What', 'must', 'be', 'acknowledgment', 'shall', 'be'], maxWidth = 16
 Output: ['What   must   be',
          'acknowledgment  ',
          'shall be        ']
@@ -32,8 +32,8 @@ Explanation: Note that the last line is 'shall be    ' instead of 'shall     be'
 
 Example 3:
 Input:
-words = ['Science','is','what','we','understand','well','enough','to','explain',
-         'to','a','computer.','Art','is','everything','else','we','do'], maxWidth = 20
+words = ['Science', 'is', 'what', 'we', 'understand', 'well', 'enough', 'to', 'explain',
+         'to', 'a', 'computer.', 'Art', 'is', 'everything', 'else', 'we', 'do'], maxWidth = 20
 Output: ['Science  is  what we',
          'understand      well',
          'enough to explain to',
