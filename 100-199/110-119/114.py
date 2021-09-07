@@ -26,7 +26,15 @@ Example 3:
 Input: root = [0],  Output: [0]
 """
 
-from shared import list_to_tree, TreeNode
+"""
+We must give output as a pre-order traversal, which is current -> left -> right. Therefore we can recurse down the
+left side of the tree. When we find a node to the right, we know that this must be the next item in the pre-order
+sequence, so we move it to the left of the last left node (and recur for the children on the right). In this way we
+build up a pre-order traversal from top to bottom going down the left. Then we just have to move left to right nodes
+recursively.
+"""
+
+from shared import list_to_tree
 
 
 def flatten(root):
