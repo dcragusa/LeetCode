@@ -617,4 +617,10 @@ Given the root of a binary tree, flatten the tree into a "linked list".
 **Distinct Subsequences** -
 Given two strings `s` and `t`, return the number of distinct subsequences of `s` which equal `t`.
 
+[116.](100-199/110-119/116.py)
+**Populating Next Right Pointers in Each Node** -
+You are given a perfect binary tree where all leaves are on the same level, and every parent has two children.
+Make each node's `next` variable point to its next right node. If there is no next right node, the next pointer 
+should be set to `None`.
+
 </details>
