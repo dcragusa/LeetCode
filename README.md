@@ -613,4 +613,8 @@ node values in the path equals `target_sum`. Each path should be returned as a l
 **Flatten Binary Tree to Linked List** -
 Given the root of a binary tree, flatten the tree into a "linked list".
 
+[115.](100-199/110-119/115.py)
+**Distinct Subsequences** -
+Given two strings `s` and `t`, return the number of distinct subsequences of `s` which equal `t`.
+
 </details>
