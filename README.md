@@ -623,4 +623,9 @@ You are given a perfect binary tree where all leaves are on the same level, and 
 Make each node's `next` variable point to its next right node. If there is no next right node, the next pointer 
 should be set to `None`.
 
+[117.](100-199/110-119/117.py)
+**Populating Next Right Pointers in Each Node II** -
+Given a binary tree, populate each `next` variable to point to its next right node. If there is no next right node, 
+the `next` variable should be set to `None`.
+
 </details>
