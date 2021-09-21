@@ -628,4 +628,8 @@ should be set to `None`.
 Given a binary tree, populate each `next` variable to point to its next right node. If there is no next right node, 
 the `next` variable should be set to `None`.
 
+[118.](100-199/110-119/118.py)
+**Pascal's Triangle** -
+Given an integer `numRows`, return the first `numRows` rows of Pascal's triangle.
+
 </details>
