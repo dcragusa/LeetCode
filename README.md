@@ -637,3 +637,14 @@ Given an integer `numRows`, return the first `numRows` rows of Pascal's triangle
 Given an integer `rowIndex`, return the <code>rowIndex<sup>th</sup></code> (0-indexed) row of Pascal's triangle.
 
 </details>
+
+<details>
+<summary><b>120-129</b></summary>
+
+[120.](100-199/120-129/120.py)
+**Triangle Path Sum** -
+Given a `triangle` array, return the minimum path sum from top to bottom. For each step, you may move to an adjacent 
+number of the row below. More formally, if you are on index `i` on the current row, you may move to either `i` or 
+`i + 1` on the next row.
+
+</details>
