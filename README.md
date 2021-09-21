@@ -632,4 +632,8 @@ the `next` variable should be set to `None`.
 **Pascal's Triangle** -
 Given an integer `numRows`, return the first `numRows` rows of Pascal's triangle.
 
+[119.](100-199/110-119/119.py)
+**Pascal's Triangle II** -
+Given an integer `rowIndex`, return the <code>rowIndex<sup>th</sup></code> (0-indexed) row of Pascal's triangle.
+
 </details>
