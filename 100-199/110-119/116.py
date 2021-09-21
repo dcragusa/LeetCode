@@ -8,12 +8,12 @@ class Node:
     right : Optional[Node]
     next: Optional[Node]
 
-Populate each next pointer to point to its next right node. If there is no next right node, the next pointer should
-be set to None. Initially, all next pointers are set to None.
+Populate each next variable to point to its next right node. If there is no next right node, the next variable should
+be set to None. Initially, all next variables are set to None.
 
 
 Example 1:
-Input: root = [1,2,3,4,5,6,7],  Output: [1,#,2,3,#,4,5,6,7,#]
+Input: root = [1, 2, 3, 4, 5, 6, 7],  Output: [1, #, 2, 3, #, 4, 5, 6, 7, #]
 
          1                  1 -> #
        /   \              /   \
