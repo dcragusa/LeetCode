@@ -647,4 +647,10 @@ Given a `triangle` array, return the minimum path sum from top to bottom. For ea
 number of the row below. More formally, if you are on index `i` on the current row, you may move to either `i` or 
 `i + 1` on the next row.
 
+[121.](100-199/120-129/121.py)
+**Best Time to Buy and Sell Stock** -
+You are given an array `prices` where `prices[i]` is the price of a given stock on the <code>i<sup>th</sup></code> day.
+You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future 
+to sell that stock. Return the maximum profit you can achieve. If you cannot achieve any profit, return `0`.
+
 </details>
