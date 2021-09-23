@@ -665,4 +665,10 @@ You are given an array `prices` where `prices[i]` is the price of a given stock 
 Find the maximum profit you can achieve. You may complete at most two transactions. You may not engage in multiple
 transactions simultaneously (i.e., you must sell the stock before you buy again).
 
+[124.](100-199/120-129/124.py)
+**Binary Tree Maximum Path Sum** -
+A path in a binary tree is a sequence of nodes where each pair of adjacent nodes in the sequence has an edge 
+connecting them. A node can only appear in the sequence at most once. Note that the path does not need to pass 
+through the root. Given the root of a binary tree, return the maximum path sum of any path.
+
 </details>
