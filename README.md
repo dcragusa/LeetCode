@@ -672,7 +672,9 @@ connecting them. A node can only appear in the sequence at most once. Note that 
 through the root. Given the root of a binary tree, return the maximum path sum of any path.
 
 [125.](100-199/120-129/125.py)
-**Valid Palindrome** -
-Given a string `s`, determine if it is a palindrome, considering only alphanumeric characters and ignoring case.
+**Word Ladder II** -
+Given two words, `beginWord` and `endWord`, and a dictionary `wordList`, return all the shortest transformation 
+sequences from `beginWord` to `endWord`, or an empty list if no such sequence exists. Each sequence should be 
+returned as a list of the words <code>[beginWord,  s<sub>1</sub>,  s<sub>2</sub>,  ...,  endWord]</code>.
 
 </details>
