@@ -671,4 +671,8 @@ A path in a binary tree is a sequence of nodes where each pair of adjacent nodes
 connecting them. A node can only appear in the sequence at most once. Note that the path does not need to pass 
 through the root. Given the root of a binary tree, return the maximum path sum of any path.
 
+[125.](100-199/120-129/125.py)
+**Valid Palindrome** -
+Given a string `s`, determine if it is a palindrome, considering only alphanumeric characters and ignoring case.
+
 </details>
