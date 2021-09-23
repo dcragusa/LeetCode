@@ -34,7 +34,7 @@ Similar to 112, except we keep track of the path as we recur down the tree, and 
 when we find a matching leaf node.
 """
 
-from shared import TreeNode, list_to_tree
+from shared import list_to_tree
 
 
 def path_sum(root, target_sum):
