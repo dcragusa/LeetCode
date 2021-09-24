@@ -697,3 +697,13 @@ You are given the root of a binary tree containing digits from 0 to 9 only. Each
 represents a number. Return the total sum of all root-to-leaf numbers. 
 
 </details>
+
+<details>
+<summary><b>130-139</b></summary>
+
+[130.](100-199/130-139/130.py)
+**Surrounded Regions** -
+Given an `m x n` matrix board containing `'X'` and `'O'`, capture all regions that are 4-directionally surrounded 
+by `'X'`. A region is captured by flipping all `'O'`s into `'X'`s in that surrounded region.
+
+</details>
