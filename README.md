@@ -686,4 +686,9 @@ returned as a list of the words <code>[beginWord,  s<sub>1</sub>,  s<sub>2</sub>
 Given two words, `beginWord` and `endWord`, and a dictionary `wordList`, return the number of words in the shortest 
 transformation sequence from `beginWord` to `endWord`, or 0 if no such sequence exists.
 
+[128.](100-199/120-129/128.py)
+**Longest Consecutive Sequence** -
+Given an unsorted array of integers `nums`, return the length of the longest consecutive elements sequence.
+You must write an algorithm that runs in O(n) time.
+
 </details>
