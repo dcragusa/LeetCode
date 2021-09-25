@@ -711,4 +711,9 @@ by `'X'`. A region is captured by flipping all `'O'`s into `'X'`s in that surrou
 Given a string `s`, partition `s` such that every substring of the partition is a palindrome. Return all possible 
 palindrome partitionings of `s`.
 
+[132.](100-199/130-139/132.py)
+**Palindrome Partitioning II** -
+Given a string `s`, partition `s` such that every substring of the partition is a palindrome. Return the minimum 
+cuts needed for a palindrome partitioning of s.
+
 </details>
