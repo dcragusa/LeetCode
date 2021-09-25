@@ -706,4 +706,9 @@ represents a number. Return the total sum of all root-to-leaf numbers.
 Given an `m x n` matrix board containing `'X'` and `'O'`, capture all regions that are 4-directionally surrounded 
 by `'X'`. A region is captured by flipping all `'O'`s into `'X'`s in that surrounded region.
 
+[131.](100-199/130-139/131.py)
+**Palindrome Partitioning** -
+Given a string `s`, partition `s` such that every substring of the partition is a palindrome. Return all possible 
+palindrome partitionings of `s`.
+
 </details>
