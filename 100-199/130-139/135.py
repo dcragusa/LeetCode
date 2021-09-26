@@ -40,5 +40,5 @@ def candy(ratings):
 
 assert candy([1, 0, 2]) == 5
 assert candy([1, 2, 2]) == 4
-assert candy([1, 2, 2, 1]) == 4
-assert candy([1, 2, 3, 3, 4, 1]) == 4
+assert candy([1, 2, 2, 1]) == 6
+assert candy([1, 2, 3, 3, 4, 1]) == 10
