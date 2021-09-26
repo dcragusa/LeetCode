@@ -742,4 +742,9 @@ you need to have to distribute the candies to the children.
 Given a non-empty array of integers `nums`, every element appears twice except for one. Find that single one.
 You must implement a solution with a linear runtime complexity and use only constant extra space.
 
+[137.](100-199/130-139/137.py)
+**Single Number II** -
+Given a non-empty integer array `nums`, every element appears three times except for one, which appears exactly once. 
+Find the single element and return it. Your solution must have linear runtime complexity and constant extra space.
+
 </details>
