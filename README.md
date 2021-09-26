@@ -747,4 +747,9 @@ You must implement a solution with a linear runtime complexity and use only cons
 Given a non-empty integer array `nums`, every element appears three times except for one, which appears exactly once. 
 Find the single element and return it. Your solution must have linear runtime complexity and constant extra space.
 
+[138.](100-199/130-139/138.py)
+**Copy List with Random Pointer** -
+A linked list of length `n` is given such that each node contains an additional random pointer, which could point 
+to any node in the list, or `None`. Construct a deep copy of the list and return the head.
+
 </details>
