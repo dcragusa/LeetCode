@@ -752,4 +752,9 @@ Find the single element and return it. Your solution must have linear runtime co
 A linked list of length `n` is given such that each node contains an additional `random` pointer, which could point 
 to any node in the list, or `None`. Construct a deep copy of the list and return the head.
 
+[139.](100-199/130-139/139.py)
+**Word Break** -
+Given a string `s` and a list of strings `wordDict`, return `True` if `s` can be segmented into a space-separated 
+sequence of one or more dictionary words.
+
 </details>
