@@ -15,7 +15,11 @@ We first go through the original graph, creating a map from old to new (copied) 
 go through the resulting map, assigning new node neighbours to match old node neighbours.
 """
 
-from shared import Node
+
+class Node:
+    def __init__(self, val, neighbours=None):
+        self.val = val
+        self.neighbours = neighbours if neighbours is not None else []
 
 
 def clone_graph(node):

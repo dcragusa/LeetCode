@@ -69,9 +69,3 @@ def list_to_tree(items: list) -> Optional[TreeNode]:
             node.right = TreeNode(item)
             nodes.append(node.right)
         idx += 1
-
-
-class Node:
-    def __init__(self, val, neighbours=None):
-        self.val = val
-        self.neighbours = neighbours if neighbours is not None else []
