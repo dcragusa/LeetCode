@@ -737,4 +737,9 @@ You are giving candies to these children subjected to the following requirements
 candy, and children with a higher rating get more candies than their neighbors. Return the minimum number of candies 
 you need to have to distribute the candies to the children.
 
+[136.](100-199/130-139/136.py)
+**Single Number** -
+Given a non-empty array of integers `nums`, every element appears twice except for one. Find that single one.
+You must implement a solution with a linear runtime complexity and use only constant extra space.
+
 </details>
