@@ -767,4 +767,9 @@ sequence of one or more dictionary words.
 Given a string `s` and a list of strings `wordDict`, add spaces in `s` to construct a sentence where each word is 
 a valid dictionary word. Return all such possible sentences in any order.
 
+[141.](100-199/140-149/141.py)
+**Linked List Cycle** -
+Given `head`, the head of a linked list, determine if the linked list has a cycle in it.  There is a cycle in a 
+linked list if there is some node in the list that can be reached again by continuously following the `next` pointer. 
+
 </details>
