@@ -758,3 +758,13 @@ Given a string `s` and a list of strings `wordDict`, return `True` if `s` can be
 sequence of one or more dictionary words.
 
 </details>
+
+<details>
+<summary><b>140-149</b></summary>
+
+[140.](100-199/140-149/140.py)
+**Word Break II** -
+Given a string `s` and a list of strings `wordDict`, add spaces in `s` to construct a sentence where each word is 
+a valid dictionary word. Return all such possible sentences in any order.
+
+</details>
