@@ -791,4 +791,8 @@ Given the root of a binary tree, return the preorder traversal of its nodes' val
 **Binary Tree Postorder Traversal** -
 Given the root of a binary tree, return the postorder traversal of its nodes' values.
 
+[146.](100-199/140-149/146.py)
+**LRU Cache** -
+Design a data structure that follows the constraints of a Least Recently Used (LRU) cache.
+
 </details>
