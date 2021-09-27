@@ -770,6 +770,10 @@ a valid dictionary word. Return all such possible sentences in any order.
 [141.](100-199/140-149/141.py)
 **Linked List Cycle** -
 Given `head`, the head of a linked list, determine if the linked list has a cycle in it.  There is a cycle in a 
-linked list if there is some node in the list that can be reached again by continuously following the `next` pointer. 
+linked list if there is some node in the list that can be reached again by continuously following the `next` pointer.
+
+[142.](100-199/140-149/142.py)
+**Linked List Cycle II** -
+Given the head of a linked list, return the node where the cycle begins. If there is no cycle, return `None`.
 
 </details>
