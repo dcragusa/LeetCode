@@ -783,4 +783,8 @@ You are given the head of a singly linked-list. The list can be represented as:
 Reorder the list to be in the following form:
 <code>L<sub>0</sub> → L<sub>n</sub> → L<sub>1</sub> → L<sub>n-1</sub> → L<sub>2</sub> → L<sub>n-2</sub> → ...</code>.
 
+[144.](100-199/140-149/144.py)
+**Binary Tree Preorder Traversal** -
+Given the root of a binary tree, return the preorder traversal of its nodes' values.
+
 </details>
