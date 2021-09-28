@@ -3,8 +3,8 @@ from typing import Optional
 
 
 class ListNode:
-    def __init__(self, x):
-        self.val, self.next = x, None
+    def __init__(self, x, next_: 'ListNode' = None):
+        self.val, self.next = x, next_
 
     def __repr__(self):
         return f'{self.val}'
@@ -24,8 +24,13 @@ def python_list_to_linked_list(items: list) -> ListNode:
 
 def linked_list_to_python_list(head: ListNode) -> list:
     python_list = []
+    seen = set()
     while head:
         python_list.append(head.val)
+        if head in seen:
+            python_list.append("<- repeating")
+            break
+        seen.add(head)
         head = head.next
     return python_list
 
