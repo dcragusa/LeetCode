@@ -799,4 +799,8 @@ Design a data structure that follows the constraints of a Least Recently Used (L
 **Insertion Sort List** -
 Given the head of a singly linked list, sort the list using insertion sort, and return the sorted list's head.
 
+[148.](100-199/140-149/148.py)
+**Sort List** -
+Given the head of a linked list, return the head of the list after sorting it in ascending order.
+
 </details>
