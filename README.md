@@ -803,4 +803,9 @@ Given the head of a singly linked list, sort the list using insertion sort, and 
 **Sort List** -
 Given the head of a linked list, return the head of the list after sorting it in ascending order.
 
+[149.](100-199/140-149/149.py)
+**Max Points on a Line** -
+Given an array `points` where <code>points[i] = [x<sub>i</sub>, y<sub>i</sub>]</code> represents a point on the X-Y 
+plane, return the maximum number of points that lie on the same straight line.
+
 </details>
