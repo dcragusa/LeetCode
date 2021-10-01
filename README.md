@@ -809,3 +809,12 @@ Given an array `points` where <code>points[i] = [x<sub>i</sub>, y<sub>i</sub>]</
 plane, return the maximum number of points that lie on the same straight line.
 
 </details>
+
+<details>
+<summary><b>150-159</b></summary>
+
+[150.](100-199/150-159/150.py)
+**Evaluate Reverse Polish Notation** -
+Evaluate the value of an arithmetic expression in Reverse Polish Notation.
+
+</details>
