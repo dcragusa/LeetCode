@@ -840,4 +840,22 @@ array `nums` that may contain duplicates, return the minimum element of this arr
 **Min Stack** -
 Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
 
+156. **Binary Tree Upside Down** - Premium
+
+157. **Read N Characters Given Read4** - Premium
+
+158. **Read N Characters Given Read4 II - Call multiple times** - Premium
+
+159. **Longest Substring with At Most Two Distinct Characters** - Premium
+
+</details>
+
+<details>
+<summary><b>160-169</b></summary>
+
+[160.](100-199/160-169/160.py)
+**Intersection of Two Linked Lists** -
+Given the heads of two singly linked-lists `headA` and `headB`, return the node at which the two lists intersect. 
+If the two linked lists have no intersection at all, return `None`.
+
 </details>
