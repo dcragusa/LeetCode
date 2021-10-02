@@ -821,4 +821,9 @@ Evaluate the value of an arithmetic expression in Reverse Polish Notation.
 **Reverse Words in a String** -
 Given an input string `s`, reverse the order of the words.
 
+[152.](100-199/150-159/152.py)
+**Maximum Product Subarray** -
+Given an integer array `nums`, find a contiguous non-empty subarray within the array that has the largest product, 
+and return the product.
+
 </details>
