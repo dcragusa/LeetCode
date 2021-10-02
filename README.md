@@ -831,4 +831,9 @@ and return the product.
 Suppose an array of length `n` sorted in ascending order is rotated between 1 and `n` times. Given the sorted rotated 
 array `nums` of unique elements, return the minimum element of this array.
 
+[154.](100-199/150-159/154.py)
+**Find Minimum in Rotated Sorted Array II** -
+Suppose an array of length `n` sorted in ascending order is rotated between 1 and `n` times. Given the sorted rotated
+array `nums` that may contain duplicates, return the minimum element of this array.
+
 </details>
