@@ -826,4 +826,9 @@ Given an input string `s`, reverse the order of the words.
 Given an integer array `nums`, find a contiguous non-empty subarray within the array that has the largest product, 
 and return the product.
 
+[153.](100-199/150-159/153.py)
+**Find Minimum in Rotated Sorted Array** -
+Suppose an array of length `n` sorted in ascending order is rotated between 1 and `n` times. Given the sorted rotated 
+array `nums` of unique elements, return the minimum element of this array.
+
 </details>
