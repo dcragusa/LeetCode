@@ -887,4 +887,9 @@ If the array contains less than two elements, return 0. You must use linear time
 **Compare Version Numbers** -
 Given two version numbers `version1` and `version2`, compare them.
 
+[166.](100-199/160-169/166.py)
+**Fraction to Recurring Decimal** -
+Given two integers representing the numerator and denominator of a fraction, return the fraction in string format.
+If the fractional part is repeating, enclose the repeating part in parentheses.
+
 </details>
