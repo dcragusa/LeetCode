@@ -858,4 +858,11 @@ Design a stack that supports push, pop, top, and retrieving the minimum element 
 Given the heads of two singly linked-lists `headA` and `headB`, return the node at which the two lists intersect. 
 If the two linked lists have no intersection at all, return `None`.
 
+161.**One Edit Distance** - Premium
+
+[162.](100-199/160-169/162.py)
+**Find Peak Element** -
+A peak element is an element that is strictly greater than its neighbors. Given an integer array `nums`, find a peak 
+element, and return its index. If the array contains multiple peaks, return the index to any of the peaks.
+
 </details>
