@@ -840,13 +840,21 @@ array `nums` that may contain duplicates, return the minimum element of this arr
 **Min Stack** -
 Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
 
-156. **Binary Tree Upside Down** - Premium
+156. **Binary Tree Upside Down** - 
+Given a binary tree where all the right nodes are either leaf nodes with a sibling (a left node that shares the same 
+parent node) or empty, flip it upside down and turn it into a tree where the original right nodes turned into 
+left leaf nodes. Return the new root.
 
-157. **Read N Characters Given Read4** - Premium
+157. **Read N Characters Given Read4** - 
+Given a file and assuming that you can only read the file using a given method `read4`, implement a method to read `n` 
+characters.
 
-158. **Read N Characters Given Read4 II - Call multiple times** - Premium
+158. **Read N Characters Given Read4 II - Call multiple times** - 
+Given a file and assuming that you can only read the file using a given method `read4`, implement a method `read` to 
+read `n` characters. Your method `read` may be called multiple times.
 
-159. **Longest Substring with At Most Two Distinct Characters** - Premium
+159. **Longest Substring with At Most Two Distinct Characters** - 
+Given a string `s`, find the length of the longest substring `t` that contains at most 2 distinct characters.
 
 </details>
 
@@ -858,11 +866,21 @@ Design a stack that supports push, pop, top, and retrieving the minimum element 
 Given the heads of two singly linked-lists `headA` and `headB`, return the node at which the two lists intersect. 
 If the two linked lists have no intersection at all, return `None`.
 
-161.**One Edit Distance** - Premium
+161. **One Edit Distance** - 
+Given two strings `s` and `t`, determine if they are both one edit distance apart.
 
 [162.](100-199/160-169/162.py)
 **Find Peak Element** -
 A peak element is an element that is strictly greater than its neighbors. Given an integer array `nums`, find a peak 
 element, and return its index. If the array contains multiple peaks, return the index to any of the peaks.
+
+163. **Missing Ranges** - 
+Given a sorted integer array `nums`, where the range of elements are in the inclusive range `[lower, upper]`, return 
+its missing ranges.
+
+[164.](100-199/160-169/164.py)
+**Maximum Gap** -
+Given an integer array `nums`, return the maximum difference between two successive elements in its sorted form. 
+If the array contains less than two elements, return 0. You must use linear time and linear extra space.
 
 </details>
