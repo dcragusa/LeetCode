@@ -892,4 +892,9 @@ Given two version numbers `version1` and `version2`, compare them.
 Given two integers representing the numerator and denominator of a fraction, return the fraction in string format.
 If the fractional part is repeating, enclose the repeating part in parentheses.
 
+[167.](100-199/160-169/167.py)
+**Two Sum II - Input array is sorted** -
+Given a 1-indexed array of integers `numbers` that is already sorted in increasing order, find two numbers such that 
+they add up to a specific `target` number.
+
 </details>
