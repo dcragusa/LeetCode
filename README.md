@@ -2,8 +2,9 @@
 
 My solutions to LeetCode problems.
 
-Each file has a problem statement, my solution, and a couple of tests, occasionally with my reasoning on how the 
-solution was achieved.
+Each file has a problem statement, my solution, and most of the time some tests and my reasoning on how the solution 
+was achieved/works. Items in the readme but without associated files are available to premium LeetCode subscribers only
+(which I am not).
 
 <details>
 <summary><b>1-9</b></summary>
@@ -904,5 +905,18 @@ Given an integer `columnNumber`, return its corresponding column title as it app
 [169.](100-199/160-169/169.py)
 **Majority Element** -
 Given an array `nums` of size `n`, return the majority element - the element that appears more than `⌊n / 2⌋` times.
+
+</details>
+
+<details>
+<summary><b>170-179</b></summary>
+
+170. **Two Sum III - Data structure design** -
+Design and implement a `TwoSum` class. It should support the following operations: `add` and `find`.
+
+[171.](100-199/170-179/171.py)
+**Excel Sheet Column Number** -
+Given a string `columnTitle` that represents the column title as it appears in an Excel sheet, return its 
+corresponding column number.
 
 </details>
