@@ -2,16 +2,16 @@
 Given an integer columnNumber, return its corresponding column title as it appears in an Excel sheet.
 
 Example 1:
-Input: columnNumber = 1,  Output: "A"
+Input: columnNumber = 1,  Output: 'A'
 
 Example 2:
-Input: columnNumber = 28,  Output: "AB"
+Input: columnNumber = 28,  Output: 'AB'
 
 Example 3:
-Input: columnNumber = 701,  Output: "ZY"
+Input: columnNumber = 701,  Output: 'ZY'
 
 Example 4:
-Input: columnNumber = 2147483647,  Output: "FXSHRXW"
+Input: columnNumber = 2147483647,  Output: 'FXSHRXW'
 """
 
 """
@@ -31,7 +31,7 @@ def convert_to_title(columnNumber):
     return result[::-1]
 
 
-assert convert_to_title(1) == "A"
-assert convert_to_title(28) == "AB"
-assert convert_to_title(701) == "ZY"
-assert convert_to_title(2147483647) == "FXSHRXW"
+assert convert_to_title(1) == 'A'
+assert convert_to_title(28) == 'AB'
+assert convert_to_title(701) == 'ZY'
+assert convert_to_title(2147483647) == 'FXSHRXW'
