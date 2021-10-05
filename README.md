@@ -901,4 +901,8 @@ they add up to a specific `target` number.
 **Excel Sheet Column Title** -
 Given an integer `columnNumber`, return its corresponding column title as it appears in an Excel sheet.
 
+[169.](100-199/160-169/169.py)
+**Majority Element** -
+Given an array `nums` of size `n`, return the majority element - the element that appears more than `⌊n / 2⌋` times.
+
 </details>
