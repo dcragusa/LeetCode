@@ -923,4 +923,8 @@ corresponding column number.
 **Factorial Trailing Zeroes** -
 Given an integer `n`, return the number of trailing zeroes in `n!`.
 
+[173.](100-199/170-179/173.py)
+**Binary Search Tree Iterator** -
+Implement the `BSTIterator` class that represents an iterator over the in-order traversal of a binary search tree.
+
 </details>
