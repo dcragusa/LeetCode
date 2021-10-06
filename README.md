@@ -919,4 +919,8 @@ Design and implement a `TwoSum` class. It should support the following operation
 Given a string `columnTitle` that represents the column title as it appears in an Excel sheet, return its 
 corresponding column number.
 
+[172.](100-199/170-179/171.py)
+**Factorial Trailing Zeroes** -
+Given an integer `n`, return the number of trailing zeroes in `n!`.
+
 </details>
