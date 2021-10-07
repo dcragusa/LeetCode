@@ -927,4 +927,10 @@ Given an integer `n`, return the number of trailing zeroes in `n!`.
 **Binary Search Tree Iterator** -
 Implement the `BSTIterator` class that represents an iterator over the in-order traversal of a binary search tree.
 
+[174.](100-199/170-179/174.py)
+**Dungeon Game** -
+Demons have captured the princess and imprisoned her in the bottom-right corner of a dungeon. The dungeon consists of 
+`m x n` rooms laid out in a 2D grid. Our valiant knight is initially positioned in the top-left room and must fight 
+his way through the dungeon to rescue the princess. Return the knight's minimum health so that he can succeed.
+
 </details>
