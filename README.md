@@ -933,4 +933,9 @@ Demons have captured the princess and imprisoned her in the bottom-right corner 
 `m x n` rooms laid out in a 2D grid. Our valiant knight is initially positioned in the top-left room and must fight 
 his way through the dungeon to rescue the princess. Return the knight's minimum health so that he can succeed.
 
+[175.](100-199/170-179/175.sql)
+**Combine Two Tables** -
+Write an SQL query to report the first name, last name, city, and state of each person in the `Person` table. If the 
+address of a `PersonId` is not present in the `Address` table, report `null` instead.
+
 </details>
