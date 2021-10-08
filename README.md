@@ -938,4 +938,18 @@ his way through the dungeon to rescue the princess. Return the knight's minimum 
 Write an SQL query to report the first name, last name, city, and state of each person in the `Person` table. If the 
 address of a `PersonId` is not present in the `Address` table, report `null` instead.
 
+[176.](100-199/170-179/176.sql)
+**Second Highest Salary** - *SQL* -
+Write an SQL query to report the second highest salary from the `Employee` table. If there is no second highest salary, 
+the query should report `null`.
+
+[177.](100-199/170-179/177.sql)
+**Nth Highest Salary** - *SQL* -
+Write an SQL query to report the <code>n<sup>th</sup></code> highest salary from the `Employee` table. If there is no 
+<code>n<sup>th</sup></code> highest salary, the query should report `null`.
+
+[178.](100-199/170-179/178.sql)
+**Rank Scores** - *SQL* -
+Write an SQL query to rank the scores. Return the result table ordered by `Score` in descending order.
+
 </details>
