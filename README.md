@@ -4,7 +4,7 @@ My solutions to LeetCode problems.
 
 Each file has a problem statement, my solution, and most of the time some tests and my reasoning on how the solution 
 was achieved/works. Items in the readme but without associated files are available to premium LeetCode subscribers only
-(which I am not).
+(which I am not), or will be filled in at some later date.
 
 <details>
 <summary><b>1-9</b></summary>
@@ -938,18 +938,15 @@ his way through the dungeon to rescue the princess. Return the knight's minimum 
 Write an SQL query to report the first name, last name, city, and state of each person in the `Person` table. If the 
 address of a `PersonId` is not present in the `Address` table, report `null` instead.
 
-[176.](100-199/170-179/176.sql)
-**Second Highest Salary** - *SQL* -
+176. **Second Highest Salary** - *SQL* -
 Write an SQL query to report the second highest salary from the `Employee` table. If there is no second highest salary, 
 the query should report `null`.
 
-[177.](100-199/170-179/177.sql)
-**Nth Highest Salary** - *SQL* -
+177. **Nth Highest Salary** - *SQL* -
 Write an SQL query to report the <code>n<sup>th</sup></code> highest salary from the `Employee` table. If there is no 
 <code>n<sup>th</sup></code> highest salary, the query should report `null`.
 
-[178.](100-199/170-179/178.sql)
-**Rank Scores** - *SQL* -
+178. **Rank Scores** - *SQL* -
 Write an SQL query to rank the scores. Return the result table ordered by `Score` in descending order.
 
 [179.](100-199/170-179/179.py)
@@ -961,8 +958,26 @@ Given a list of non-negative integers `nums`, arrange them such that they form t
 <details>
 <summary><b>180-189</b></summary>
 
-[180.](100-199/180-189/180.sql)
-**Consecutive Numbers** - *SQL* -
+180. **Consecutive Numbers** - *SQL* -
 Write an SQL query to find all numbers that appear at least three times consecutively.
+
+181. **Employees Earning More Than Their Managers** - *SQL* -
+Write an SQL query to find the employees who earn more than their managers.
+
+182. **Duplicate Emails** - *SQL* -
+Write an SQL query to report all the duplicate emails.
+
+183. **Duplicate Emails** - *SQL* -
+Write an SQL query to report all the duplicate emails.
+
+184. **Department Highest Salary** - *SQL* -
+Write an SQL query to find employees who have the highest salary in each of the departments.
+
+185. **Department Top Three Salaries** - *SQL* -
+Write an SQL query to find the employees who are high earners in each of the departments. A high earner in a 
+department is an employee who has a salary in the top three unique salaries for that department.
+
+186. **Reverse Words in a String II**
+Given an input string `s`, reverse the string word by word.
 
 </details>
