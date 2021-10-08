@@ -957,3 +957,12 @@ Write an SQL query to rank the scores. Return the result table ordered by `Score
 Given a list of non-negative integers `nums`, arrange them such that they form the largest number.
 
 </details>
+
+<details>
+<summary><b>180-189</b></summary>
+
+[180.](100-199/180-189/180.sql)
+**Consecutive Numbers** - *SQL* -
+Write an SQL query to find all numbers that appear at least three times consecutively.
+
+</details>
