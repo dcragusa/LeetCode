@@ -980,4 +980,9 @@ department is an employee who has a salary in the top three unique salaries for 
 186. **Reverse Words in a String II**
 Given an input string `s`, reverse the string word by word.
 
+[187.](100-199/180-189/187.py)
+**Repeated DNA Sequences**
+Given a string `s` that represents a DNA sequence, return all the 10-letter-long sequences (substrings) that occur 
+more than once in a DNA molecule. You may return the answer in any order.
+
 </details>
