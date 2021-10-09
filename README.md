@@ -990,4 +990,8 @@ more than once in a DNA molecule. You may return the answer in any order.
 You are given an integer array `prices` where `prices[i]` is the price of a given stock on the 
 <code>i<sup>th</sup></code> day, and an integer `k`. Find the maximum profit you can achieve with max `k` transactions.
 
+[189.](100-199/180-189/189.py)
+**Rotate Array**
+Given an array, rotate the array to the right by `k` steps, where `k` is non-negative.
+
 </details>
