@@ -985,4 +985,9 @@ Given an input string `s`, reverse the string word by word.
 Given a string `s` that represents a DNA sequence, return all the 10-letter-long sequences (substrings) that occur 
 more than once in a DNA molecule. You may return the answer in any order.
 
+[188.](100-199/180-189/188.py)
+**Best Time to Buy and Sell Stock IV**
+You are given an integer array `prices` where `prices[i]` is the price of a given stock on the 
+<code>i<sup>th</sup></code> day, and an integer `k`. Find the maximum profit you can achieve with max `k` transactions.
+
 </details>
