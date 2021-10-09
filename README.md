@@ -1003,4 +1003,8 @@ Given an array, rotate the array to the right by `k` steps, where `k` is non-neg
 **Reverse Bits**
 Reverse bits of a given 32 bits unsigned integer.
 
+[191.](100-199/190-199/191.py)
+**Number of 1 Bits**
+Write a function that takes an unsigned integer and returns the number of '1' bits it has (a.k.a. the Hamming weight).
+
 </details>
