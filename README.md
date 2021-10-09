@@ -995,3 +995,12 @@ You are given an integer array `prices` where `prices[i]` is the price of a give
 Given an array, rotate the array to the right by `k` steps, where `k` is non-negative.
 
 </details>
+
+<details>
+<summary><b>190-199</b></summary>
+
+[190.](100-199/190-199/190.py)
+**Reverse Bits**
+Reverse bits of a given 32 bits unsigned integer.
+
+</details>
