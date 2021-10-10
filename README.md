@@ -1007,4 +1007,23 @@ Reverse bits of a given 32 bits unsigned integer.
 **Number of 1 Bits**
 Write a function that takes an unsigned integer and returns the number of '1' bits it has (a.k.a. the Hamming weight).
 
+192. **Word Frequency** - *Bash* -
+Write a bash script to calculate the frequency of each word in a text file `words.txt`.
+
+193. **Valid Phone Numbers** - *Bash* -
+Given a text file `file.txt` that contains a list of phone numbers (one per line), write a one-liner bash script to 
+print all valid phone numbers.
+
+194. **Transpose File** - *Bash* -
+Given a text file `file.txt`, transpose its content.
+
+195. **Tenth Line** - *Bash* -
+Given a text file `file.txt`, print just the 10th line of the file.
+
+196. **Delete Duplicate Emails** - *SQL* -
+Write an SQL query to delete all the duplicate emails, keeping only one unique email with the smallest `Id`.
+
+197. **Rising Temperature** - *SQL* -
+Write an SQL query to find all dates' `Id` with higher temperatures compared to its previous dates (yesterday).
+
 </details>
