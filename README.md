@@ -1026,4 +1026,10 @@ Write an SQL query to delete all the duplicate emails, keeping only one unique e
 197. **Rising Temperature** - *SQL* -
 Write an SQL query to find all dates' `Id` with higher temperatures compared to its previous dates (yesterday).
 
+[198.](100-199/190-199/198.py)
+**House Robber**
+You are a professional robber planning to rob houses along a street. The police will be called if two adjacent houses 
+are broken into. Given an integer array nums representing the amount of money of each house, return the maximum amount 
+of money you can rob tonight without alerting the police.
+
 </details>
