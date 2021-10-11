@@ -7,6 +7,9 @@ was achieved/works. Items in the readme but without associated files are availab
 (which I am not), or will be filled in at some later date.
 
 <details>
+<summary><b>1-99</b></summary>
+
+<details>
 <summary><b>1-9</b></summary>
 
 [1.](1-99/1-9/1.py)
@@ -532,6 +535,11 @@ Two elements of a binary search tree (BST) are swapped by mistake. Recover the t
 
 </details>
 
+</details>
+
+<details>
+<summary><b>100-199</b></summary>
+
 <details>
 <summary><b>100-109</b></summary>
 
@@ -1038,3 +1046,21 @@ Given the root of a binary tree, imagine yourself standing on the right side of 
 you can see ordered from top to bottom.
 
 </details>
+
+</details>
+
+<details>
+<summary><b>200-299</b></summary>
+
+<details>
+<summary><b>200-209</b></summary>
+
+[200.](200-299/200-209/200.py)
+**Number of Islands** -
+Given an `m x n` 2D binary grid `grid` which represents a map of `'1'`s (land) and `'0'`s (water), return the number 
+of islands.
+
+</details>
+
+</details>
+
