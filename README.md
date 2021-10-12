@@ -1065,6 +1065,10 @@ of islands.
 Given two integers `left` and `right` that represent the range `[left, right]`, return the bitwise AND of all numbers 
 in this range, inclusive.
 
+[202.](200-299/200-209/202.py)
+**Happy Number** -
+Write an algorithm to determine if a number `n` is happy.
+
 </details>
 
 </details>
