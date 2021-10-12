@@ -1069,6 +1069,12 @@ in this range, inclusive.
 **Happy Number** -
 Write an algorithm to determine if a number `n` is happy.
 
+[203.](200-299/200-209/203.py)
+**Remove Linked List Elements** -
+Given the `head` of a linked list and an integer `val`, remove all the nodes of the linked list that have 
+`node.val == val`, and return the new `head`.
+
+
 </details>
 
 </details>
