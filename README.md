@@ -1060,6 +1060,11 @@ you can see ordered from top to bottom.
 Given an `m x n` 2D binary grid `grid` which represents a map of `'1'`s (land) and `'0'`s (water), return the number 
 of islands.
 
+[201.](200-299/200-209/201.py)
+**Bitwise AND of Numbers Range** -
+Given two integers `left` and `right` that represent the range `[left, right]`, return the bitwise AND of all numbers 
+in this range, inclusive.
+
 </details>
 
 </details>
