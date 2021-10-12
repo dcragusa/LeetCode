@@ -1074,6 +1074,9 @@ Write an algorithm to determine if a number `n` is happy.
 Given the `head` of a linked list and an integer `val`, remove all the nodes of the linked list that have 
 `node.val == val`, and return the new `head`.
 
+[204.](200-299/200-209/204.py)
+**Count Primes** -
+Given an integer `n`, return the number of prime numbers that are strictly less than `n`.
 
 </details>
 
