@@ -1078,6 +1078,11 @@ Given the `head` of a linked list and an integer `val`, remove all the nodes of 
 **Count Primes** -
 Given an integer `n`, return the number of prime numbers that are strictly less than `n`.
 
+[205.](200-299/200-209/205.py)
+**Isomorphic Strings** -
+Given two strings `s` and `t`, determine if they are isomorphic. Two strings are isomorphic if the characters in one
+can be replaced to get the other.
+
 </details>
 
 </details>
