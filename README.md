@@ -1083,6 +1083,10 @@ Given an integer `n`, return the number of prime numbers that are strictly less 
 Given two strings `s` and `t`, determine if they are isomorphic. Two strings are isomorphic if the characters in one
 can be replaced to get the other.
 
+[206.](200-299/200-209/206.py)
+**Reverse Linked Lists** -
+Given the `head` of a singly linked list, reverse the list, and return the reversed list.
+
 </details>
 
 </details>
