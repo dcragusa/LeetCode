@@ -1087,6 +1087,12 @@ can be replaced to get the other.
 **Reverse Linked Lists** -
 Given the `head` of a singly linked list, reverse the list, and return the reversed list.
 
+[207.](200-299/200-209/207.py)
+**Course Schedule** -
+There are a total of `numCourses` courses you have to take. You are given an array `prerequisites` where 
+`prerequisites[i] = [a, b]` indicates that you must take course `b` first if you want to take course `a`. Find whether 
+you can finish all courses.
+
 </details>
 
 </details>
