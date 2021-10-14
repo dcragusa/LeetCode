@@ -1098,6 +1098,12 @@ you can finish all courses.
 A trie or prefix tree is a tree data structure used to efficiently store and retrieve keys in a dataset of strings. 
 Implement the `Trie` class.
 
+[209.](200-299/200-209/209.py)
+**Minimum Size Subarray Sum** -
+Given an array of positive integers `nums` and a positive integer `target`, return the minimal length of a contiguous 
+subarray <code>[nums<sub>i</sub>, nums<sub>i+1</sub>, ..., nums<sub>n</sub>]</code> of which the sum is greater than 
+or equal to `target`. If there is no such subarray, return `0` instead.
+
 </details>
 
 </details>
