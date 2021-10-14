@@ -1093,6 +1093,11 @@ There are a total of `numCourses` courses you have to take. You are given an arr
 `prerequisites[i] = [a, b]` indicates that you must take course `b` first if you want to take course `a`. Find whether 
 you can finish all courses.
 
+[208.](200-299/200-209/208.py)
+**Implement Trie (Prefix Tree)** -
+A trie or prefix tree is a tree data structure used to efficiently store and retrieve keys in a dataset of strings. 
+Implement the `Trie` class.
+
 </details>
 
 </details>
