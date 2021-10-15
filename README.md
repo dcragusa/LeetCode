@@ -1116,6 +1116,11 @@ There are a total of `numCourses` courses you have to take. You are given an arr
 ordering of courses you should take to finish all courses. If there are multiple valid answers, return any of them. 
 If it is impossible to finish all courses, return an empty array.
 
+[211.](200-299/210-219/211.py)
+**Design Add and Search Words Data Structure** -
+Design a data structure that supports adding new words and finding if a string matches any previously added string.
+Implement the `WordDictionary` class.
+
 </details>
 
 </details>
