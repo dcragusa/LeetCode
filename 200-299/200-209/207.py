@@ -38,19 +38,22 @@ def can_finish(numCourses, prerequisites):
     node_colours = [0] * numCourses
 
     def dfs_visit(node):
+        if node_colours[node] == 2:
+            return True
+        if node_colours[node] == 1:
+            return False
+
         node_colours[node] = 1
         for prereq in prereq_map[node]:
-            if node_colours[prereq] == 1:
+            if not dfs_visit(prereq):
                 return False
-            elif node_colours[prereq] == 0 and not dfs_visit(prereq):
-                return False
+
         node_colours[node] = 2
         return True
 
     for course in range(numCourses):
-        if node_colours[course] == 0:
-            if not dfs_visit(course):
-                return False
+        if not dfs_visit(course):
+            return False
 
     return True
 
