@@ -1121,6 +1121,12 @@ If it is impossible to finish all courses, return an empty array.
 Design a data structure that supports adding new words and finding if a string matches any previously added string.
 Implement the `WordDictionary` class.
 
+[212.](200-299/210-219/212.py)
+**Word Search II** -
+Given an `m x n` `board` of characters and a list of strings `words`, return all words on the board. Each word must be 
+constructed from letters of sequentially adjacent cells, where adjacent cells are horizontally or vertically 
+neighbouring. The same letter cell may not be used more than once in a word.
+
 </details>
 
 </details>
