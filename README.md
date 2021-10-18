@@ -1037,8 +1037,8 @@ Write an SQL query to find all dates' `Id` with higher temperatures compared to 
 [198.](100-199/190-199/198.py)
 **House Robber**
 You are a professional robber planning to rob houses along a street. The police will be called if two adjacent houses 
-are broken into. Given an integer array nums representing the amount of money of each house, return the maximum amount 
-of money you can rob tonight without alerting the police.
+are broken into. Given an integer array `nums` representing the amount of money of each house, return the maximum 
+amount of money you can rob tonight without alerting the police.
 
 [199.](100-199/190-199/199.py)
 **Binary Tree Right Side View**
@@ -1126,6 +1126,12 @@ Implement the `WordDictionary` class.
 Given an `m x n` `board` of characters and a list of strings `words`, return all words on the board. Each word must be 
 constructed from letters of sequentially adjacent cells, where adjacent cells are horizontally or vertically 
 neighbouring. The same letter cell may not be used more than once in a word.
+
+[213.](200-299/210-219/213.py)
+**House Robber II** -
+You are a professional robber planning to rob houses along a *circular* street. The police will be called if two 
+adjacent houses are broken into. Given an integer array `nums` representing the amount of money of each house, return 
+the maximum amount of money you can rob tonight without alerting the police.
 
 </details>
 
