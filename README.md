@@ -1133,6 +1133,11 @@ You are a professional robber planning to rob houses along a *circular* street. 
 adjacent houses are broken into. Given an integer array `nums` representing the amount of money of each house, return 
 the maximum amount of money you can rob tonight without alerting the police.
 
+[214.](200-299/210-219/214.py)
+**Shortest Palindrome** -
+You are given a string `s`. You can convert `s` to a palindrome by adding characters in front of it. Return the 
+shortest palindrome you can find by performing this transformation.
+
 </details>
 
 </details>
