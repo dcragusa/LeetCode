@@ -1138,6 +1138,10 @@ the maximum amount of money you can rob tonight without alerting the police.
 You are given a string `s`. You can convert `s` to a palindrome by adding characters in front of it. Return the 
 shortest palindrome you can find by performing this transformation.
 
+[215.](200-299/210-219/215.py)
+**Shortest Palindrome** -
+Given an integer array `nums` and an integer `k`, return the <code>k<sup>th</sup></code> largest element in the array.
+
 </details>
 
 </details>
