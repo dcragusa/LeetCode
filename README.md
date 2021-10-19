@@ -1142,6 +1142,11 @@ shortest palindrome you can find by performing this transformation.
 **Kth Largest Element in an Array** -
 Given an integer array `nums` and an integer `k`, return the <code>k<sup>th</sup></code> largest element in the array.
 
+[216.](200-299/210-219/216.py)
+**Combination Sum III** -
+Find all valid combinations of `k` numbers that sum up to `n` such that only numbers `1` through `9` are used, and each 
+number is used at most once. Return a list of all possible valid combinations.
+
 </details>
 
 </details>
