@@ -1139,7 +1139,7 @@ You are given a string `s`. You can convert `s` to a palindrome by adding charac
 shortest palindrome you can find by performing this transformation.
 
 [215.](200-299/210-219/215.py)
-**Shortest Palindrome** -
+**Kth Largest Element in an Array** -
 Given an integer array `nums` and an integer `k`, return the <code>k<sup>th</sup></code> largest element in the array.
 
 </details>
