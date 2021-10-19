@@ -1147,6 +1147,11 @@ Given an integer array `nums` and an integer `k`, return the <code>k<sup>th</sup
 Find all valid combinations of `k` numbers that sum up to `n` such that only numbers `1` through `9` are used, and each 
 number is used at most once. Return a list of all possible valid combinations.
 
+[217.](200-299/210-219/217.py)
+**Contains Duplicate** -
+Given an integer array `nums`, return `True` if any value appears more than once in the array, and return `False` if 
+every element is distinct.
+
 </details>
 
 </details>
