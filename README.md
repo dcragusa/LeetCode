@@ -1152,6 +1152,11 @@ number is used at most once. Return a list of all possible valid combinations.
 Given an integer array `nums`, return `True` if any value appears more than once in the array, and return `False` if 
 every element is distinct.
 
+[218.](200-299/210-219/218.py)
+**The Skyline Problem** -
+A city's skyline is the outer contour of the silhouette formed by all the buildings in that city when viewed from a 
+distance. Given locations and heights of all the buildings, return the collective skyline formed by these buildings.
+
 </details>
 
 </details>
