@@ -1157,6 +1157,11 @@ every element is distinct.
 A city's skyline is the outer contour of the silhouette formed by all the buildings in that city when viewed from a 
 distance. Given locations and heights of all the buildings, return the collective skyline formed by these buildings.
 
+[219.](200-299/210-219/219.py)
+**Contains Duplicate II** -
+Given an integer array `nums` and an integer `k`, return `True` if there are two distinct indices `i` and `j` in the 
+array such that `nums[i] == nums[j]` and `abs(i - j) <= k`.
+
 </details>
 
 </details>
