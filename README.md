@@ -1167,6 +1167,11 @@ array such that `nums[i] == nums[j]` and `abs(i - j) <= k`.
 <details>
 <summary><b>220-229</b></summary>
 
+[220.](200-299/220-229/220.py)
+**Contains Duplicate III** -
+Given an integer array `nums` and two integers `k` and `t`, return `True` if there are two distinct indices `i` and `j`
+in the array such that `abs(i - j) <= k` and `abs(nums[i] - nums[j]) <= t`.
+
 [221.](200-299/220-229/221.py)
 **Maximal Square** -
 Given an `m x n` binary matrix filled with `'0'`s and `'1'`s, find the largest square containing only `'1'`s and 
