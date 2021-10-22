@@ -1177,6 +1177,10 @@ in the array such that `abs(i - j) <= k` and `abs(nums[i] - nums[j]) <= t`.
 Given an `m x n` binary matrix filled with `'0'`s and `'1'`s, find the largest square containing only `'1'`s and 
 return its area.
 
+[222.](200-299/220-229/222.py)
+**Count Complete Tree Nodes** -
+Given the root of a complete binary tree, return the number of the nodes in the tree.
+
 </details>
 
 </details>
