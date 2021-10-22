@@ -1167,7 +1167,7 @@ array such that `nums[i] == nums[j]` and `abs(i - j) <= k`.
 <details>
 <summary><b>220-229</b></summary>
 
-[220.](200-299/220-229/220.py)
+[221.](200-299/220-229/221.py)
 **Maximal Square** -
 Given an `m x n` binary matrix filled with `'0'`s and `'1'`s, find the largest square containing only `'1'`s and 
 return its area.
