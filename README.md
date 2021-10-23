@@ -1204,6 +1204,11 @@ Given the `root` of a binary tree, invert the tree, and return its `root`.
 Given a string `s` representing a valid expression, evaluate this expression and return its value. `s` consists of
 digits, `'+'`, `'-'`, `'*'`, `'/'`, and `' '`.
 
+[228.](200-299/220-229/228.py)
+**Summary Ranges** -
+You are given a sorted unique integer array `nums`. Return the smallest sorted list of ranges that cover all the 
+numbers in the array exactly.
+
 </details>
 
 </details>
