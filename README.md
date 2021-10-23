@@ -1185,6 +1185,10 @@ Given the root of a complete binary tree, return the number of the nodes in the 
 **Rectangle Area** -
 Given the coordinates of two rectilinear rectangles in a 2D plane, return the total area covered by the two rectangles.
 
+[224.](200-299/220-229/224.py)
+**Basic Calculator** -
+Given a string `s` representing a valid expression, implement a basic calculator to evaluate it, and return the result.
+
 </details>
 
 </details>
