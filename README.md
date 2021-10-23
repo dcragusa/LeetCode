@@ -1181,6 +1181,10 @@ return its area.
 **Count Complete Tree Nodes** -
 Given the root of a complete binary tree, return the number of the nodes in the tree.
 
+[223.](200-299/220-229/223.py)
+**Rectangle Area** -
+Given the coordinates of two rectilinear rectangles in a 2D plane, return the total area covered by the two rectangles.
+
 </details>
 
 </details>
