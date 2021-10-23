@@ -1188,6 +1188,7 @@ Given the coordinates of two rectilinear rectangles in a 2D plane, return the to
 [224.](200-299/220-229/224.py)
 **Basic Calculator** -
 Given a string `s` representing a valid expression, implement a basic calculator to evaluate it, and return the result.
+`s` consists of digits, `'+'`, `'-'`, `'('`, `')'`, and `' '`.
 
 [225.](200-299/220-229/225.py)
 **Implement Stack using Queues** -
@@ -1197,6 +1198,11 @@ functions of a normal stack (`push`, `top`, `pop`, and `empty`).
 [226.](200-299/220-229/226.py)
 **Invert Binary Tree** -
 Given the `root` of a binary tree, invert the tree, and return its `root`.
+
+[227.](200-299/220-229/227.py)
+**Basic Calculator II** -
+Given a string `s` representing a valid expression, evaluate this expression and return its value. `s` consists of
+digits, `'+'`, `'-'`, `'*'`, `'/'`, and `' '`.
 
 </details>
 
