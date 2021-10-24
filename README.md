@@ -912,7 +912,7 @@ Given an integer `columnNumber`, return its corresponding column title as it app
 
 [169.](100-199/160-169/169.py)
 **Majority Element** -
-Given an array `nums` of size `n`, return the majority element - the element that appears more than `⌊n / 2⌋` times.
+Given an array `nums` of size `n`, return the majority element - the element that appears more than `⌊ n/2 ⌋` times.
 
 </details>
 
@@ -1208,6 +1208,10 @@ digits, `'+'`, `'-'`, `'*'`, `'/'`, and `' '`.
 **Summary Ranges** -
 You are given a sorted unique integer array `nums`. Return the smallest sorted list of ranges that cover all the 
 numbers in the array exactly.
+
+[229.](200-299/220-229/229.py)
+**Majority Element II** -
+Given an integer array of size `n`, find all elements that appear more than `⌊ n/3 ⌋` times.
 
 </details>
 
